@@ -43,9 +43,9 @@ bash scripts/preprocess.sh
 
 ### Clustering
 After preprocessing, run the clustering algorithm using:
-    ```bash
-    bash scripts/run_clustering.sh
-    ```
+```bash
+bash scripts/run_clustering.sh
+```
 
 ## 5. Results
 The clustering results will be available in the notebooks/ folder. Open the Jupyter notebook to visualize the results.
