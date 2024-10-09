@@ -29,7 +29,7 @@ This project performs EDA and clustering on a dataset of cocktails and their ing
 
 3. install dependencies
     ```bash
-    pip install -r dependencies.txt
+    pip install -r requirements.txt
     ```
 ## 3. Dataset
 The dataset is stored in JSON format in the data/ folder. 
