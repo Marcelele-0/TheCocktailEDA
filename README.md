@@ -6,12 +6,27 @@ This project focuses on exploratory data analysis (EDA) and clustering of cockta
 1. Introduction
 2. Installation
 3. Dataset
-4. Usage
-5. Results
-6. License
+4. EDA conclusions
+
 
 ## 1. Introduction
 This project performs EDA and clustering on a dataset of cocktails and their ingredients. The dataset is available in the `data/` folder.
+
+### Project Structure
+    ```txt
+    project-root/
+    ├── configs/                # Configuration files
+    ├── data/                   
+    │   ├── raw                 # Dataset in JSON format
+    │   ├── processed           # processed  dataset
+    ├── notebooks/              # Jupyter notebooks for results visualization
+    ├── src/                    # Core Python code
+    │   ├── datamodule.py       # Preprocessing logic
+    │   ├── clustering.py       # Clustering logic
+    ├── README.md               # Project documentation
+    ├── environment.yaml        # Conda environment setup
+    └── requirements.txt        # List of required dependencies
+    ```
 
 ## 2. Installation
 
@@ -34,9 +49,4 @@ This project performs EDA and clustering on a dataset of cocktails and their ing
 ## 3. Dataset
 The dataset is stored in JSON format in the data/ folder. 
 
-## 4. Usage
-### Preprocessing
-#todo
-
-## 5. Results
-The clustering results will be available in the notebooks/ folder. Open the Jupyter notebook to visualize the results.
+## 4. EDA conclusions

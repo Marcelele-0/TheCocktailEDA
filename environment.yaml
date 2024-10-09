@@ -8,7 +8,7 @@
 name: cocktail-clustering
 
 dependencies:
-  - python=3.12.7
+  - python
   - numpy
   - pandas
   - scikit-learn
