@@ -36,16 +36,7 @@ The dataset is stored in JSON format in the data/ folder.
 
 ## 4. Usage
 ### Preprocessing
-Run the data preprocessing using:
-```bash
-bash scripts/preprocess.sh
-```
-
-### Clustering
-After preprocessing, run the clustering algorithm using:
-```bash
-bash scripts/run_clustering.sh
-```
+#todo
 
 ## 5. Results
 The clustering results will be available in the notebooks/ folder. Open the Jupyter notebook to visualize the results.
