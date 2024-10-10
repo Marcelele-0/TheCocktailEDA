@@ -48,6 +48,37 @@ SOUR_INGREDIENTS = [
 ]
 
 
+EXOTIC_INGREDIENTS = [
+    'Passion Fruit', 'Coconut', 'Mango'
+]
+
+SWEET_INGREDIENTS = [
+    'Sugar', 'Honey', 'Syrup', 'Chocolate', 'Sweet Vermouth'
+]
+
+TROPICAL_INGREDIENTS = [
+    'Coconut', 'Mango', 'Pineapple', 'Passion Fruit'
+]
+
+COFFEE_INGREDIENTS = [
+    'Kahlua', 'Tia Maria', 'Coffee Liqueur', 'Espresso'
+]
+
+HERBAL_INGREDIENTS = [
+    'Angostura Bitters', 'Campari', 'Chartreuse', 'Benedictine', 'Mint'
+]
+
+DESSERT_INGREDIENTS = [
+    'Nutmeg', 'Chocolate Ice-cream', 'Whipped Cream'
+]
+
+ALCOHOLIC_INGREDIENTS = [
+    'Vodka', 'Gin', 'Rum', 'Light Rum', 'Dark Rum', 'Añejo Rum', 
+    'Whiskey', 'Bourbon', 'Irish Whiskey', 'Cognac', 'Brandy', 'Tequila',
+    'Amaretto', 'Kahlua', 'Tia Maria', 'Triple Sec', 'Champagne', 'Port', 
+    'Red Wine', 'Sherry', 'Blended Whiskey', 'Scotch', 'Sloe Gin'
+]
+
 def add_tags(cocktail):
     """
     Function to assign appropriate tags to a cocktail based on its ingredients.
@@ -119,6 +150,42 @@ def add_tags(cocktail):
         if 'Sour' not in tags:
             tags.append('Sour')
 
+
+    # Exotic
+    if any(ingredient in EXOTIC_INGREDIENTS for ingredient in ingredients):
+        if 'Exotic' not in tags:
+            tags.append('Exotic')
+
+    # Sweet
+    if any(ingredient in SWEET_INGREDIENTS for ingredient in ingredients):
+        if 'Sweet' not in tags:
+            tags.append('Sweet')
+
+    # Tropical
+    if any(ingredient in TROPICAL_INGREDIENTS for ingredient in ingredients):
+        if 'Tropical' not in tags:
+            tags.append('Tropical')
+
+    # Coffee
+    if any(ingredient in COFFEE_INGREDIENTS for ingredient in ingredients):
+        if 'Coffee' not in tags:
+            tags.append('Coffee')
+
+    # Herbal
+    if any(ingredient in HERBAL_INGREDIENTS for ingredient in ingredients):
+        if 'Herbal' not in tags:
+            tags.append('Herbal')
+
+    # Dessert
+    if any(ingredient in DESSERT_INGREDIENTS for ingredient in ingredients):
+        if 'Dessert' not in tags:
+            tags.append('Dessert')
+
+    # Alcoholic
+    if any(ingredient in ALCOHOLIC_INGREDIENTS for ingredient in ingredients):
+        if 'Alcoholic' not in tags:
+            tags.append('Alcoholic')
+
     # Save tags
     cocktail['tags'] = tags
     return cocktail
@@ -127,6 +194,8 @@ def add_tags(cocktail):
 # Load data from a JSON file
 def load_data(file_path):
     return pd.read_json(file_path)
+
+
 
 
 # Save processed data to a JSON file
