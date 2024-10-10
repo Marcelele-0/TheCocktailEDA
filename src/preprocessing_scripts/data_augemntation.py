@@ -90,14 +90,13 @@ def add_tags(cocktail):
     if tags is None:
         tags = []
 
-    # Vegan and Vegetarian
+    # Vegan and Vegetarian - there is no vegetrain but not vegan cocktail
     if not any(ingredient in NON_VEGAN_INGREDIENTS for ingredient in ingredients):
         if 'Vegan' not in tags:
             tags.append('Vegan')
 
-    if not any(ingredient in NON_VEGETARIAN_INGREDIENTS for ingredient in ingredients):
-        if 'Vegetarian' not in tags:
-            tags.append('Vegetarian')
+    if 'Vegetarian'  in tags:
+        tags.remove('Vegetarian')
 
     # Nutty
     if any(ingredient in NUTTY_INGREDIENTS for ingredient in ingredients):
@@ -143,7 +142,6 @@ def add_tags(cocktail):
     if any(ingredient in SOUR_INGREDIENTS for ingredient in ingredients):
         if 'Sour' not in tags:
             tags.append('Sour')
-
 
     # Exotic
     if any(ingredient in EXOTIC_INGREDIENTS for ingredient in ingredients):
