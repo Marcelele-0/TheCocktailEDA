@@ -50,8 +50,12 @@ This project performs EDA and clustering on a dataset of cocktails and their ing
 The dataset is stored in JSON format in the data/ folder. 
 
 ## 4. EDA conclusions
-During the preprocessing phase, relevant tags are automatically assigned to cocktails based on their ingredients. 
-This process ensures consistency and enriches the dataset by adding meaningful labels such as "Vegan", "Strong", or "Chilli". 
-The logic for this tagging system is located in the preprocessing_scripts/data_augmentation.py file, which analyzes the ingredients of each cocktail and updates the tags accordingly.
 
+### General tags 
+- During the preprocessing phase, relevant tags are automatically assigned to cocktails based on their ingredients. 
+- This process ensures consistency and enriches the dataset by adding meaningful labels such as "Vegan", "Strong", or "Chilli". 
+- The logic for this tagging system is located in the preprocessing_scripts/data_augmentation.py file, which analyzes the ingredients of each cocktail and updates the tags accordingly.
 
+### Tag Alcoholic
+
+- During the exploratory data analysis, it was discovered that every cocktail in the dataset is alcoholic. As a result, the `Alcoholic` tag is deemed unnecessary for this dataset. This observation simplifies our analysis, as we can focus on other relevant attributes without redundancy.

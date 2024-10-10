@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the JSON data
-data = pd.read_json('data/raw/cocktail_dataset.json')
+data = pd.read_json('data/processed/processed_data.json')
 
 # Print basic information about the dataset
 print("Basic Information:")
@@ -24,7 +24,6 @@ print("Unique Tags:")
 print(unique_tags)
 print("\n")
 
-
 # Extract unique ingredients
 unique_ingredients = set()
 for ingredients in data['ingredients']:
@@ -34,29 +33,3 @@ for ingredients in data['ingredients']:
 
 print("Unique Ingredients:")
 print(unique_ingredients)
-
-
-
-
-# # Print descriptive statistics for all columns
-# print("Descriptive Statistics:")
-# print(data.describe(include='all'))  # Include all data types
-# print("\n")
-
-# # Print missing values for each column
-# print("Missing Values:")
-# print(data.isnull().sum())
-# print("\n")
-
-# # Print unique values and their counts for each categorical column
-# print("Unique Values in Each Column:")
-# for column in data.select_dtypes(include=['object']).columns:
-#     print(f"\nColumn: {column}")
-#     print(data[column].value_counts())
-    
-# # Print a summary of numerical columns
-# print("\nNumerical Summary:")
-# for column in data.select_dtypes(include=['int64', 'float64']).columns:
-#     print(f"\nColumn: {column}")
-#     print(data[column].describe())
-    

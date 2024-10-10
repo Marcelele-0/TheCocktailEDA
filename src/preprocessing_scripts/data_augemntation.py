@@ -72,12 +72,6 @@ DESSERT_INGREDIENTS = [
     'Nutmeg', 'Chocolate Ice-cream', 'Whipped Cream'
 ]
 
-ALCOHOLIC_INGREDIENTS = [
-    'Vodka', 'Gin', 'Rum', 'Light Rum', 'Dark Rum', 'Añejo Rum', 
-    'Whiskey', 'Bourbon', 'Irish Whiskey', 'Cognac', 'Brandy', 'Tequila',
-    'Amaretto', 'Kahlua', 'Tia Maria', 'Triple Sec', 'Champagne', 'Port', 
-    'Red Wine', 'Sherry', 'Blended Whiskey', 'Scotch', 'Sloe Gin'
-]
 
 def add_tags(cocktail):
     """
@@ -181,10 +175,10 @@ def add_tags(cocktail):
         if 'Dessert' not in tags:
             tags.append('Dessert')
 
-    # Alcoholic
-    if any(ingredient in ALCOHOLIC_INGREDIENTS for ingredient in ingredients):
-        if 'Alcoholic' not in tags:
-            tags.append('Alcoholic')
+    # Alcoholic - remove this tag if it exists
+    if 'Alcoholic' in tags:
+        tags.remove('Alcoholic')
+        
 
     # Save tags
     cocktail['tags'] = tags
