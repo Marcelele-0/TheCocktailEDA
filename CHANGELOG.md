@@ -26,3 +26,6 @@
 
 - New functions added for data analysis:
 - Created the function analyze_data(data) to calculate and log descriptive statistics and missing values.
+
+## [0.1.5]
+- Concept failed, starting from scratch.
