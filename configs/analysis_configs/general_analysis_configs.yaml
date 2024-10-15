@@ -1,0 +1,4 @@
+functions:
+  load_data: true         # Set to true to load data in the general analysis - needs to be true to run athis file 
+  analyze_data: true
+  analyze_columns: false  # Set to true to analyze columns

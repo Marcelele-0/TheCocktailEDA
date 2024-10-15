@@ -1,0 +1,4 @@
+functions:
+  load_data: true
+  analyze_data: true
+  analyze_columns: false
