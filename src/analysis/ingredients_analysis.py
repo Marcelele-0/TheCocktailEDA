@@ -2,7 +2,7 @@ import pandas as pd
 import logging
 
 # Configure logging with a custom format
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(level=logging.DEBUG,
                     format='%(levelname)s - %(message)s')
 
 def load_data(file_path):
@@ -31,13 +31,40 @@ def analyze_ingredients(data):
         stats = ingredients_df.describe(include='all')  # Include all data types
         logging.info(f"\n{stats}\n")  # Log stats
 
+        logging.info(f"Available columns in ingredients_df: {ingredients_df.columns.tolist()}")
+        return ingredients_df  # Return the DataFrame for further analysis
     else:
         logging.warning("No valid ingredient dictionaries found.")
+        return None  # Return None if no valid data found
+
+def print_ingredients_without_alcohol(ingredients_df):
+    """Print ingredients that do not have assigned alcohol content (NaN)."""
+    # Filter for ingredients where 'alcohol' is NaN
+    missing_alcohol = ingredients_df[ingredients_df['alcohol'].isna()]
+    
+    # Print unique values in the 'alcohol' column
+    unique_alcohol_values = ingredients_df['alcohol'].unique()
+    logging.debug(unique_alcohol_values)
+    # Print the first few rows of the 'alcohol' column
+    logging.debug("First few values in 'alcohol' column:")
+    logging.debug(ingredients_df['alcohol'].head())
+
+    if not missing_alcohol.empty:
+        logging.info("Ingredients without assigned alcohol content (NaN):")
+        for index, row in missing_alcohol.iterrows():
+            logging.info(f"ID: {row['id']}, Name: {row['name']}")
+    else:
+        logging.info("All ingredients have assigned alcohol content.")
 
 def main():
     data = load_data('data/raw/cocktail_dataset.json')
+
     if data is not None:
-        analyze_ingredients(data)  # Call the ingredient analysis function
+        ingredients_df = analyze_ingredients(data)  # Get the DataFrame for ingredients
+        if ingredients_df is not None:  # Ensure the DataFrame is valid
+            print_ingredients_without_alcohol(ingredients_df)  # Call the function to print ingredients without alcohol
+        else:
+            logging.error("No valid ingredients data to analyze.")
     else:
         logging.error("No data to analyze.")
 

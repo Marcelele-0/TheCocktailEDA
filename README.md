@@ -52,12 +52,4 @@ The dataset is stored in JSON format in the `data/` folder.
 ## 4. EDA Conclusions
 
 ### General Tags 
-- During the preprocessing phase, relevant tags are automatically assigned to cocktails based on their ingredients. 
-- This process ensures consistency and enriches the dataset by adding meaningful labels such as "Vegan", "Strong", or "Chilli". 
-- The logic for this tagging system is located in the `preprocessing_scripts/data_augmentation.py` file, which analyzes the ingredients of each cocktail and updates the tags accordingly.
 
-### Tag 'Alcoholic'
-- During the exploratory data analysis, it was discovered that every cocktail in the dataset is alcoholic. As a result, the `Alcoholic` tag is deemed unnecessary for this dataset. This observation simplifies our analysis, as we can focus on other relevant attributes without redundancy.
-
-### Tag 'Vegan'
-- The analysis of cocktails revealed that all drinks labeled as vegetarian are also vegan. Therefore, the "Vegetarian" tag has been removed from the classification. Only the "Vegan" tag is retained, which better reflects the absence of animal-derived ingredients. This simplification allows for a clearer classification of cocktails in the project.

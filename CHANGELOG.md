@@ -29,3 +29,18 @@
 
 ## [0.1.5]
 - Concept failed, starting from scratch.
+
+## [0.1.6] - 2024-10-15
+### Added
+- Implemented a general analysis file 
+- reated an ingredient analysis file 
+
+### Changed
+- Updated the code structure to improve modularity and readability, ensuring that functions are clearly defined and documented for future reference.
+- Enhanced logging capabilities to provide more detailed output regarding the analyses performed and the findings derived from the data.
+
+### To Do
+- Hydra config for ingredients_analysis.py
+
+### Removed
+Removed any redundant or unnecessary functions that were identified during the development of the new analysis features, streamlining the codebase. 
