@@ -1,0 +1,3 @@
+# Ignore hydra outputs
+outputs/
+multirun/

@@ -1,5 +1,7 @@
 import pandas as pd
 import logging
+import hydra
+from omegaconf import DictConfig, OmegaConf
 
 # Configure logging with a custom format
 logging.basicConfig(level=logging.DEBUG,
@@ -56,15 +58,40 @@ def print_ingredients_without_alcohol(ingredients_df):
     else:
         logging.info("All ingredients have assigned alcohol content.")
 
-def main():
-    data = load_data('data/raw/cocktail_dataset.json')
+@hydra.main(version_base=None, config_path="../../configs/analysis_config", config_name="ingredient_analysis_configs")
+def main(cfg: DictConfig):
+    # Load global config (data_type)
+    global_config = OmegaConf.load("configs/global_configs.yaml")
+
+    # Global selection of data type: raw or processed
+    if global_config.data_type == 'raw':
+        file_path = 'data/raw/cocktail_dataset.json'
+    elif global_config.data_type == 'processed':
+        file_path = 'data/processed/processed_cocktail_dataset.json'
+    else:
+        logging.error("Invalid data type specified in global config. Use 'raw' or 'processed'.")
+        return None
+
+    # Load data if enabled in config
+    if cfg.functions.load_data:
+        data = load_data(file_path)
+    else:
+        logging.info("Data loading is disabled.")
+        return None
 
     if data is not None:
-        ingredients_df = analyze_ingredients(data)  # Get the DataFrame for ingredients
-        if ingredients_df is not None:  # Ensure the DataFrame is valid
-            print_ingredients_without_alcohol(ingredients_df)  # Call the function to print ingredients without alcohol
+        # Analyze ingredients if enabled in config
+        if cfg.functions.analyze_ingredients:
+            ingredients_df = analyze_ingredients(data)
         else:
-            logging.error("No valid ingredients data to analyze.")
+            ingredients_df = None
+            logging.info("Ingredient analysis is disabled.")
+        
+        # Print ingredients without alcohol if enabled in config
+        if ingredients_df is not None and cfg.functions.print_ingredients_without_alcohol:
+            print_ingredients_without_alcohol(ingredients_df)
+        else:
+            logging.info("Printing ingredients without alcohol is disabled or no valid ingredient data.")
     else:
         logging.error("No data to analyze.")
 

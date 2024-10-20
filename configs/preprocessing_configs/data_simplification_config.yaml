@@ -1,0 +1,3 @@
+# configs/data_simplification_config.yaml
+
+apply_simplification: true  # Czy zastosować uproszczenie danych

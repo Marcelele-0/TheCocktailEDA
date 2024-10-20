@@ -1,7 +1,7 @@
 import pandas as pd
 import logging
 import hydra
-from omegaconf import DictConfig
+from omegaconf import DictConfig, OmegaConf
 
 # Configure logging with a custom format
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
@@ -11,12 +11,12 @@ def load_data(file_path):
     """Load JSON data from a specified file."""
     try:
         data = pd.read_json(file_path)
-        logging.info("Data loaded successfully.")
+        logging.info(f"Data loaded successfully from {file_path}.")
         return data
     except Exception as e:
         logging.critical(f"Error loading data: {e}")
         return None
-        
+
 
 def analyze_columns(data):
     """Analyze each column in the dataset."""
@@ -66,7 +66,7 @@ def analyze_columns(data):
         logging.info("\n")
 
 
-def analyze_data(data):
+def generate_descriptive_stats(data):
     """Analyze the dataset and print descriptive statistics and missing values."""
     descriptive_stats = data.describe(include='all')
     logging.info(f"Descriptive Statistics:\n{descriptive_stats}")
@@ -78,21 +78,33 @@ def analyze_data(data):
         logging.info("No missing values found.")
 
 
-@hydra.main(version_base=None, config_path="../../configs/analysis_configs", config_name="general_analysis_configs")
+@hydra.main(version_base=None, config_path="../../configs/analysis_config", config_name="general_analysis_configs")
 def main(cfg: DictConfig):
-    data = None
-    
-    # Uruchom funkcje na podstawie konfiguracji Hydry
+    # Load global config (data_type)
+    global_config = OmegaConf.load("configs/global_configs.yaml")
+
+    # Global selection of data type: raw or processed
+    if global_config.data_type == 'raw':
+        file_path = 'data/raw/cocktail_dataset.json'
+    elif global_config.data_type == 'processed':
+        file_path = 'data/processed/processed_cocktail_dataset.json'
+    else:
+        logging.error("Invalid data type specified in global config. Use 'raw' or 'processed'.")
+        return None
+
+    # Load data
     if cfg.functions.load_data:
-        data = load_data('data/raw/cocktail_dataset.json')
-    else :
-        logging.info(" Data loading is disabled.") 
+        data = load_data(file_path)
+    else:
+        logging.info("Data loading is disabled.") 
         return None
 
     if data is not None:
-        if cfg.functions.analyze_data:
-            analyze_data(data)
+        # Analyze general data if enabled
+        if cfg.functions.generate_descriptive_stats:
+            generate_descriptive_stats(data)
         
+        # Analyze columns if enabled
         if cfg.functions.analyze_columns:
             analyze_columns(data)
     else:

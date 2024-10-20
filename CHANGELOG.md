@@ -44,3 +44,24 @@
 
 ### Removed
 Removed any redundant or unnecessary functions that were identified during the development of the new analysis features, streamlining the codebase. 
+
+# Changelog
+
+## [0.1.7] - 2024-10-20
+### Added
+- Implemented global configuration management to handle input data type selection across different analysis files.
+- Created local configurations for individual analysis scripts to control the execution of specific functions.
+- Added functionality to the `ingredient_analysis.py` script to load and analyze ingredient data.
+- Introduced data simplification functionality in a dedicated script for removing unnecessary columns from cocktail data.
+- Enhanced logging for better visibility into data loading and analysis processes.
+
+### Changed
+- Updated `general_analysis.py` to conditionally load data based on the selected data type (original or processed).
+- Modified the configuration files to accommodate function-specific settings alongside the global settings.
+
+### Removed
+- Removed unnecessary columns (`createdAt`, `updatedAt`, `imageUrl`) from cocktail and ingredient datasets during data simplification.
+
+### Notes
+- Data processed by the new simplification function will be saved in the `data/processed/` directory.
+- Hydras output directory is now included in `.gitignore` to prevent clutter in the repository.
