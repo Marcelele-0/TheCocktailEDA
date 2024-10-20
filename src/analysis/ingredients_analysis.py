@@ -31,7 +31,7 @@ def analyze_ingredients(data):
         stats = ingredients_df.describe(include='all')  # Include all data types
         logging.info(f"\n{stats}\n")  # Log stats
 
-        logging.info(f"Available columns in ingredients_df: {ingredients_df.columns.tolist()}")
+        logging.debug(f"Available columns in ingredients_df: {ingredients_df.columns.tolist()}")
         return ingredients_df  # Return the DataFrame for further analysis
     else:
         logging.warning("No valid ingredient dictionaries found.")

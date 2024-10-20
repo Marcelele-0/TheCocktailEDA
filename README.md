@@ -51,5 +51,66 @@ The dataset is stored in JSON format in the `data/` folder.
 
 ## 4. EDA Conclusions
 
-### General Tags 
+### - Data shema
+#### Cocktail
+
+- **id** (integer): Unique identifier of the cocktail  
+  Example: 11000, 11001
+
+- **name** (string): Name of the cocktail  
+  Example: "Mojito", "Old Fashioned"
+
+- **instructions** (string, nullable): Instructions on how to prepare the cocktail  
+  Example: "Muddle mint leaves with sugar and lime juice..."
+
+- **alcoholic** (boolean): Indicates whether the cocktail contains alcohol  
+  Example: true, false
+
+- **category** (enum, nullable): Category of the cocktail  
+  Example: "Cocktail", "Ordinary Drink", "Shot"
+
+- **glass** (enum, nullable): Type of glass used for serving  
+  Example: "Highball glass", "Old-fashioned glass"
+
+- **imageUrl** (string, nullable): URL of the cocktail image  
+  Example: https://cocktails.solvro.pl/images/cocktails/mojito.png
+
+- **createdAt** (string, nullable): Record creation date  
+  Example: "2024-08-19 18:39:58"
+
+- **updatedAt** (string, nullable): Record update date  
+  Example: "2024-08-21 10:12:58"
+
+### Ingredients
+
+- **id** (integer): Unique identifier of the ingredient  
+  Example: 10, 11
+
+- **name** (string): Name of the ingredient  
+  Example: "Red wine", "Grapefruit juice"
+
+- **description** (string, nullable): Description of the ingredient  
+  Example: "Red wine is a type of wine made from dark-colored grape varieties..."
+
+- **alcohol** (boolean, nullable): Indicates whether the ingredient contains alcohol  
+  Example: true, false
+
+- **type** (enum, nullable): Type of ingredient  
+  Example: "Vodka", "Gin", "Juice"
+
+- **percentage** (number, nullable): Alcohol percentage of the ingredient  
+  Example: 40, null
+
+- **imageUrl** (string, nullable): URL of the ingredient image  
+  Example: https://cocktails.solvro.pl/images/ingredients/rose.png
+
+- **createdAt** (string, nullable): Record creation date for the ingredient  
+  Example: "2024-08-19 18:39:58"
+
+- **updatedAt** (string, nullable): Record update date for the ingredient  
+  Example: "2024-08-21 10:12:58"
+
+- **measure** (string): Measurement or quantity of the ingredient used  
+  Example: "1/2 oz"
+
 
