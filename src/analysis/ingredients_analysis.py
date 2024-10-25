@@ -4,14 +4,14 @@ import hydra
 from omegaconf import DictConfig, OmegaConf
 
 # Configure logging with a custom format
-logging.basicConfig(level=logging.DEBUG,
+logging.basicConfig(level=logging.INFO,
                     format='%(levelname)s - %(message)s')
 
 def load_data(file_path):
     """Load JSON data from a specified file."""
     try:
         data = pd.read_json(file_path)
-        logging.info("Data loaded successfully.")
+        logging.debug("Data loaded successfully.")
         return data
     except Exception as e:
         logging.critical(f"Error loading data: {e}")
@@ -19,7 +19,7 @@ def load_data(file_path):
 
 def analyze_ingredients(data):
     """Analyze ingredients and their properties."""
-    logging.info("Analyzing ingredients used in cocktails...")
+    logging.debug("Analyzing ingredients used in cocktails...")
 
     # Flatten the ingredients
     ingredients_flat = data['ingredients'].explode().dropna()
@@ -58,7 +58,7 @@ def print_ingredients_without_alcohol(ingredients_df):
     else:
         logging.info("All ingredients have assigned alcohol content.")
 
-@hydra.main(version_base=None, config_path="../../configs/analysis_config", config_name="ingredient_analysis_configs")
+@hydra.main(version_base=None, config_path="../../configs/analysis_configs", config_name="ingredient_analysis_config")
 def main(cfg: DictConfig):
     # Load global config (data_type)
     global_config = OmegaConf.load("configs/global_configs.yaml")

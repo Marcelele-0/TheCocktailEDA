@@ -63,7 +63,6 @@ def analyze_columns(data):
                 stats = data[column].describe()
                 logging.info(f"Statistics:\n{stats}")
 
-        logging.info("\n")
 
 
 def generate_descriptive_stats(data):
@@ -78,7 +77,7 @@ def generate_descriptive_stats(data):
         logging.info("No missing values found.")
 
 
-@hydra.main(version_base=None, config_path="../../configs/analysis_config", config_name="general_analysis_configs")
+@hydra.main(version_base=None, config_path="../../configs/analysis_configs/", config_name="general_analysis_config")
 def main(cfg: DictConfig):
     # Load global config (data_type)
     global_config = OmegaConf.load("configs/global_configs.yaml")
