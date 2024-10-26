@@ -1,6 +1,7 @@
 # configs/analysis_configs/ingredient_analysis_config.yaml
 
 functions:
-  load_data: true                # Czy załadować dane
-  analyze_ingredients: true       # Czy przeprowadzić analizę składników
-  print_ingredients_without_alcohol: true  # Czy wypisać składniki bez przypisanego alkoholu
+  load_data: true                # Whether to load data
+  analyze_ingredients: true      # Whether to analyze ingredients
+  print_ingredients_without_alcohol: true  # Whether to print ingredients without assigned alcohol
+  print_unique_ingredients: true  # Whether to print ingredients without assigned category

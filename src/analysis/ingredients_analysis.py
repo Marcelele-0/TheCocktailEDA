@@ -47,6 +47,7 @@ def print_ingredients_without_alcohol(ingredients_df):
     # Print unique values in the 'alcohol' column
     unique_alcohol_values = ingredients_df['alcohol'].unique()
     logging.debug(unique_alcohol_values)
+
     # Print the first few rows of the 'alcohol' column
     logging.debug("First few values in 'alcohol' column:")
     logging.debug(ingredients_df['alcohol'].head())
@@ -57,6 +58,14 @@ def print_ingredients_without_alcohol(ingredients_df):
             logging.info(f"ID: {row['id']}, Name: {row['name']}")
     else:
         logging.info("All ingredients have assigned alcohol content.")
+
+def print_unique_ingredients(ingredients_df):
+    """Print unique ingredients in the dataset."""
+    unique_ingredients = ingredients_df['name'].unique()
+    unique_ingredients = [ingredient.replace("ñ", "n") for ingredient in unique_ingredients]
+
+    logging.info(f"Unique ingredients in the dataset: {unique_ingredients}")
+
 
 @hydra.main(version_base=None, config_path="../../configs/analysis_configs", config_name="ingredient_analysis_config")
 def main(cfg: DictConfig):
@@ -92,6 +101,12 @@ def main(cfg: DictConfig):
             print_ingredients_without_alcohol(ingredients_df)
         else:
             logging.info("Printing ingredients without alcohol is disabled or no valid ingredient data.")
+
+        # Print unique ingredients if enabled in config
+        if ingredients_df is not None and cfg.functions.print_unique_ingredients:
+            print_unique_ingredients(ingredients_df)
+        else:
+            logging.info("Printing unique ingredients is disabled or no valid ingredient data.")
     else:
         logging.error("No data to analyze.")
 

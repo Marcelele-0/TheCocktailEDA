@@ -65,3 +65,17 @@ Removed any redundant or unnecessary functions that were identified during the d
 ### Notes
 - Data processed by the new simplification function will be saved in the `data/processed/` directory.
 - Hydras output directory is now included in `.gitignore` to prevent clutter in the repository.
+
+# Creating the changelog text for version 0.1.8
+## [0.1.8] - 2024-10-26
+### Added
+- Implemented a function in the `ingredient_analysis.py` script to print unique ingredients from the dataset, enhancing data visibility and analysis.
+- Included logging statements to track the unique ingredient extraction process.
+
+### Changed
+- Adjusted the overall logging format for consistency across analysis scripts.
+- Updated configuration files to include settings for the new unique ingredients function.
+
+### Notes
+- The unique ingredients functionality allows for a quick overview of distinct ingredients in the dataset.
+- Ensure that the configuration file is updated to enable the new function as needed.
