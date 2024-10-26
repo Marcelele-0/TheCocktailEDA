@@ -115,4 +115,22 @@ The dataset is stored in JSON format in the `data/` folder.
 
 
 - #### Unique ingredients in the dataset: 
-  ['Soda water', 'Light Rum', 'Lime', 'Mint', 'Sugar', 'Water', 'Angostura Bitters', 'Bourbon', 'lemon', 'Vodka', 'Gin', 'Tequila', 'Coca-Cola', 'Sweet Vermouth', 'Campari', 'Powdered Sugar', 'Blended Whiskey', 'Cherry', 'Dry Vermouth', 'Olive', 'Lime Juice', 'Salt', 'Triple Sec', 'Ice', 'Maraschino Cherry', 'Orange Peel', 'Ginger Ale', 'Apricot Brandy', 'Lemon Juice', 'Amaretto', 'Sloe Gin', 'Southern Comfort', 'Lemon Peel', 'Orange Bitters', 'Yellow Chartreuse', 'Creme De Cacao', 'Light Cream', 'Nutmeg', 'Brandy', 'Lemon vodka', 'Pineapple Juice', 'Blackberry Brandy', 'Kummel', 'Dark Rum', 'Egg White', 'Kahlua', 'Club Soda', 'White Creme de Menthe', 'Tea', 'Whipped Cream', 'Apple Brandy', 'Applejack', 'Orange', 'Benedictine', 'Wine', 'Champagne', 'Green Creme de Menthe', 'Grand Marnier', 'Bitters', 'Scotch', 'Banana', 'Carbonated Water', 'Coffee Liqueur', 'Celery Salt', 'Tabasco Sauce', 'Tomato Juice', 'Worcestershire Sauce', 'Blue Curacao', 'Lemonade', 'Anejo Rum', 'Orange Juice', 'Tia Maria', 'Maraschino Liqueur', 'Grenadine', 'Egg', 'Cachaca', 'Egg Yolk', 'Cognac', 'Cherry Brandy', 'Port', 'Chocolate Ice-cream', 'Dubonnet Rouge', 'Sugar Syrup', 'Pineapple', 'Tonic Water', 'Orange spiral', 'Strawberries', 'Heavy cream', 'Galliano', 'Irish Whiskey', 'Peach brandy', 'Sweet and Sour', 'Green Chartreuse', 'Drambuie', 'Orgeat Syrup', 'Grapefruit Juice', 'Red Wine', 'Raspberry syrup', 'Sherry', 'Coffee Brandy', 'Lime vodka', 'Lemon-lime soda']   
+  ['Soda water', 'Light Rum', 'Lime', 'Mint', 'Sugar', 'Water', 'Angostura Bitters', 'Bourbon', 'lemon', 'Vodka',
+   'Gin', 'Tequila', 'Coca-Cola', 'Sweet Vermouth', 'Campari', 'Powdered Sugar', 'Blended Whiskey', 'Cherry', 'Dry Vermouth', 
+   'Olive', 'Lime Juice', 'Salt', 'Triple Sec', 'Ice', 'Maraschino Cherry', 'Orange Peel', 'Ginger Ale', 'Apricot Brandy', 
+   'Lemon Juice', 'Amaretto', 'Sloe Gin', 'Southern Comfort', 'Lemon Peel', 'Orange Bitters', 'Yellow Chartreuse', 
+   'Creme De Cacao', 'Light Cream', 'Nutmeg', 'Brandy', 'Lemon vodka', 'Pineapple Juice', 'Blackberry Brandy', 'Kummel', 
+   'Dark Rum', 'Egg White', 'Kahlua', 'Club Soda', 'White Creme de Menthe', 'Tea', 'Whipped Cream', 'Apple Brandy', 
+   'Applejack', 'Orange', 'Benedictine', 'Wine', 'Champagne', 'Green Creme de Menthe', 'Grand Marnier', 'Bitters', 
+   'Scotch', 'Banana', 'Carbonated Water', 'Coffee Liqueur', 'Celery Salt', 'Tabasco Sauce', 'Tomato Juice', 'Worcestershire Sauce', 
+   'Blue Curacao', 'Lemonade', 'Anejo Rum', 'Orange Juice', 'Tia Maria', 'Maraschino Liqueur', 'Grenadine', 'Egg', 
+   'Cachaca', 'Egg Yolk', 'Cognac', 'Cherry Brandy', 'Port', 'Chocolate Ice-cream', 'Dubonnet Rouge', 'Sugar Syrup', 
+   'Pineapple', 'Tonic Water', 'Orange spiral', 'Strawberries', 'Heavy cream', 'Galliano', 'Irish Whiskey', 
+   'Peach brandy', 'Sweet and Sour', 'Green Chartreuse', 'Drambuie', 'Orgeat Syrup', 'Grapefruit Juice', 'Red Wine', 
+   'Raspberry syrup', 'Sherry', 'Coffee Brandy', 'Lime vodka', 'Lemon-lime soda']   
+
+- ####  Unique tags in the dataset: 
+  ['IBA' 'ContemporaryClassic' 'Alcoholic' 'USA' 'Asia' 'Vegan' 'Citrus'
+  'Brunch' 'Hangover' 'Mild' 'Classic' 'Expensive' 'Savory' 'Strong'
+  'StrongFlavor' 'Vegetarian' 'Sour' 'Christmas' 'Beach' 'DinnerParty'
+  'Summer' 'Chilli' 'Dairy' 'Nutty' 'Cold' 'Fruity' 'Breakfast' 'NewEra']

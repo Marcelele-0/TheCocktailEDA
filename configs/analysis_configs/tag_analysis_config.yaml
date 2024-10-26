@@ -1,0 +1,5 @@
+# configs/analysis_configs/ingredient_analysis_config.yaml
+
+functions:
+  load_data: true                # enable whole section
+  analyze_tags: true

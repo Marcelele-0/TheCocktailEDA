@@ -79,3 +79,11 @@ Removed any redundant or unnecessary functions that were identified during the d
 ### Notes
 - The unique ingredients functionality allows for a quick overview of distinct ingredients in the dataset.
 - Ensure that the configuration file is updated to enable the new function as needed.
+
+## [0.1.9] - 2024-10-26
+### Added
+- Introduced a configuration file for tag definitions using Hydra, enabling dynamic assignment of tags based on specified ingredients and thresholds.
+- Implemented the structure for tag definitions in YAML format, allowing easy modification and expansion of tagging rules.
+
+### Changed
+- Adjusted the tagging mechanism to utilize the new configuration, improving flexibility and maintainability in the tagging process.
