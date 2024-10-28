@@ -8,10 +8,10 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def simplify_cocktail_data(df):
     '''Simplify the cocktail data by removing unnecessary columns: createdAt, updatedAt, imageUrl and simplifying the ingredients data'''
     # Drop unnecessary columns
-    df = df.drop(columns=['createdAt', 'updatedAt', 'imageUrl'], errors='ignore')
+    df = df.drop(columns=['createdAt', 'updatedAt', 'imageUrl', 'instructions'], errors='ignore')
     
     df['ingredients'] = df['ingredients'].apply(lambda ingredients: [
-        {k: v for k, v in ingredient.items() if k not in ['createdAt', 'updatedAt', 'imageUrl']}
+        {k: v for k, v in ingredient.items() if k not in ['createdAt', 'updatedAt', 'imageUrl','description']}
         for ingredient in ingredients
     ])
     

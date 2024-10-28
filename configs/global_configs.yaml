@@ -2,4 +2,4 @@
 
 
 # Analysis global config
-data_type: raw  # Może być raw albo processed
+data_type: processed  # Może być raw albo processed
