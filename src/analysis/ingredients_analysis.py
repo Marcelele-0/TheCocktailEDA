@@ -66,6 +66,46 @@ def print_unique_ingredients(ingredients_df):
 
     logging.info(f"Unique ingredients in the dataset: {unique_ingredients}")
 
+def print_strong_alcohol_ingredients(ingredients_df):
+    """Print unique ingredients with a high alcohol content."""
+    # Filter for ingredients where 'percentage' is high
+    strong_alcohol = ingredients_df[ingredients_df['percentage'] > 30]
+
+    if not strong_alcohol.empty:
+        logging.info("Unique ingredients with high alcohol content:")
+        
+        # Replace 'ñ' with 'n' using .loc to avoid SettingWithCopyWarning
+        strong_alcohol.loc[:, 'name'] = strong_alcohol['name'].str.replace("ñ", "n")
+
+        # Get unique combinations of ID and Name
+        unique_ingredients = strong_alcohol[['id', 'name']].drop_duplicates()
+        
+        for index, row in unique_ingredients.iterrows():
+            logging.info(f"ID: {row['id']}, Name: {row['name']}")
+    else:
+        logging.info("No ingredients with high alcohol content found.")
+
+
+def print_alcohol_ingredients(ingredients_df):
+    """Print unique ingredients with a high alcohol content."""
+    # Filter for ingredients where 'percentage' is high
+    strong_alcohol = ingredients_df[ingredients_df['percentage'] > 0] 
+
+    if not strong_alcohol.empty:
+        logging.info("Unique ingredients with high alcohol content:")
+        
+        # Replace 'ñ' with 'n' using .loc to avoid SettingWithCopyWarning
+        strong_alcohol.loc[:, 'name'] = strong_alcohol['name'].str.replace("ñ", "n")
+
+        # Get unique combinations of ID and Name
+        unique_ingredients = strong_alcohol[['id', 'name']].drop_duplicates()
+        
+        for index, row in unique_ingredients.iterrows():
+            logging.info(f"ID: {row['id']}, Name: {row['name']}")
+    else:
+        logging.info("No ingredients with high alcohol content found.")
+
+
 
 @hydra.main(version_base=None, config_path="../../configs/analysis_configs", config_name="ingredient_analysis_config")
 def main(cfg: DictConfig):
@@ -107,6 +147,19 @@ def main(cfg: DictConfig):
             print_unique_ingredients(ingredients_df)
         else:
             logging.info("Printing unique ingredients is disabled or no valid ingredient data.")
+
+        # Print ingredients with high alcohol content if enabled in config
+        if ingredients_df is not None and cfg.functions.print_strong_alcohol_ingredients:
+            print_strong_alcohol_ingredients(ingredients_df)
+        else:
+            logging.info("Printing ingredients with high alcohol content is disabled or no valid ingredient data.")
+
+        
+        # Print ingredients with any alcohol content if enabled in config
+        if ingredients_df is not None and cfg.functions.print_strong_alcohol_ingredients:
+            print_alcohol_ingredients(ingredients_df)
+        else:
+            logging.info("Printing ingredients with high alcohol content is disabled or no valid ingredient data.")
     else:
         logging.error("No data to analyze.")
 

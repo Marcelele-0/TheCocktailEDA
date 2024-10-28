@@ -1,85 +1,231 @@
 tags_definitions:
-  - tag: IBA
-    ingredients: []
-    threshold: 2
-  - tag: NonVegan
-    ingredients: []
+  # International Bartenders Association - hard to asing this as and extra tag based on ingredients - threshold 3
+  - tag: IBA      
+    ingredients: [
+      'Light Rum', 'Vodka', 'Gin', 'Tequila', 'Sweet Vermouth', 'Campari', 'Dry Vermouth', 
+      'Triple Sec', 'Bourbon', 'Brandy', 'Scotch', 'Champagne'
+      ]
+    threshold: 3
+
+  # Vegan - one not vegan ingredient is enough to not be vegan - threshold 1
+  - tag: NonVegan  
+    ingredients: [
+      'Light Rum', 'Bourbon', 'Vodka', 'Gin', 'Tequila', 'Sweet Vermouth', 'Campari', 
+      'Powdered Sugar', 'Blended Whiskey', 'Brandy', 'Egg White', 'Kahlua', 'Lemon vodka', 
+      'Egg', 'Egg Yolk', 'Chocolate Ice-cream', 'Galliano', 'Irish Whiskey', 'Peach brandy'
+    ]
     threshold: 1
-    - tag: NonVegetarian
-    ingredients: []
+
+    # Non Vegetarian - one not vegetarian ingredient is enough to not be vegetarian - threshold 1
+  - tag: NonVegetarian
+    ingredients: [
+      'Light Rum', 'Bourbon', 'Vodka', 'Gin', 'Tequila', 'Cream', 'Egg White', 'Kahlua', 
+      'Egg', 'Egg Yolk', 'Chocolate Ice-cream', 'Galliano', 'Irish Whiskey', 'Peach brandy'
+      ]
     threshold: 1
+
+    # Strong - two or more strong ingredients - threshold 2
   - tag: Strong
-    ingredients: []
+    ingredients: ['Vodka', 'Gin', 'Tequila', 'Blended Whiskey', 'Apricot Brandy', 
+    'Amaretto', 'Dark Rum', 'Apple Brandy', 'Applejack', 'Wine', 'Champagne', 
+    'Anejo Rum', 'Red Wine']
     threshold: 2
-  - tag: Classic
-    ingredients: []
-    threshold: 2
-  - tag: ContemporaryClassic
-    ingredients: []
-    threshold: 2
-  - tag: Alcoholic
-    ingredients: []
-    threshold: 1
-  - tag: USA
-    ingredients: []
-    threshold: 2
-  - tag: Asia
-    ingredients: []
-    threshold: 2
-  - tag: Citrus
-    ingredients: []
-    threshold: 1
-  - tag: Brunch
-    ingredients: []
-    threshold: 2
-  - tag: Hangover
-    ingredients: []
-    threshold: 2
-  - tag: Mild
-    ingredients: []
-    threshold: 2
-  - tag: Expensive
-    ingredients: []
-    threshold: 2
-  - tag: Savory
-    ingredients: []
-    threshold: 2
-  - tag: StrongFlavor
-    ingredients: []
-    threshold: 2
-  - tag: Sour
-    ingredients: []
-    threshold: 1
-  - tag: Christmas
-    ingredients: []
-    threshold: 1
-  - tag: Beach
-    ingredients: []
-    threshold: 2
-  - tag: DinnerParty
-    ingredients: []
-    threshold: 2
-  - tag: Summer
-    ingredients: []
-    threshold: 2
-  - tag: Chilli
-    ingredients: []
-    threshold: 1
-  - tag: Dairy
-    ingredients: []
-    threshold: 2
-  - tag: Nutty
-    ingredients: []
-    threshold: 2
-  - tag: Cold
-    ingredients: []
-    threshold: 2
-  - tag: Fruity
-    ingredients: []
-    threshold: 2
-  - tag: Breakfast
-    ingredients: []
-    threshold: 2
+
+
+  # New Era - two or more new era ingredients - threshold 2
   - tag: NewEra
-    ingredients: []
+    ingredients: ['Soda water', 'Light Rum', 'Angostura Bitters', 'Coca-Cola', 
+    'Sweet Vermouth', 'Campari', 'Powdered Sugar', 'Cherry', 'Dry Vermouth', 'Olive', 
+    'Lime Juice', 'Salt', 'Triple Sec', 'Ice', 'Maraschino Cherry', 'Orange Peel', 
+    'Ginger Ale', 'Lemon Juice', 'Amaretto', 'Sloe Gin', 'Southern Comfort', 'Lemon Peel', 
+    'Orange Bitters', 'Yellow Chartreuse', 'Creme De Cacao', 'Light Cream', 'Nutmeg', 'Lemon vodka', 
+    'Pineapple Juice', 'Blackberry Brandy', 'Kummel', 'Kahlua', 'White Creme de Menthe', 'Tea', 
+    'Whipped Cream', 'Benedictine', 'Carbonated Water', 'Coffee Liqueur', 'Celery Salt', 'Tabasco Sauce', 
+    'Tomato Juice', 'Worcestershire Sauce', 'Blue Curacao', 'Lemonade', 'Tia Maria', 'Maraschino Liqueur', 
+    'Grenadine', 'Egg', 'Cachaca', 'Egg Yolk', 'Cognac', 'Cherry Brandy', 'Port', 'Chocolate Ice-cream', 'Dubonnet Rouge', 
+    'Sugar Syrup', 'Pineapple', 'Tonic Water', 'Orange spiral', 'Strawberries', 'Heavy cream', 'Galliano', 'Irish Whiskey', 
+    'Peach brandy', 'Sweet and Sour', 'Green Chartreuse', 'Drambuie', 'Orgeat Syrup', 'Grapefruit Juice', 
+    'Raspberry syrup', 'Sherry', 'Coffee Brandy', 'Lime vodka', 'Lemon-lime soda']
+    threshold: 2 
+  
+  # classic - two or more classic ingredients - threshold 2
+  - tag: Classic 
+    ingredients: [
+    'Soda water', 'Light Rum', 'Lime', 'Mint', 'Sugar', 'Water', 'Angostura Bitters', 'Bourbon',
+    'Lemon', 'Vodka', 'Gin', 'Tequila', 'Sweet Vermouth', 'Campari', 'Powdered Sugar',
+    'Blended Whiskey', 'Cherry', 'Dry Vermouth', 'Olive', 'Lime Juice', 'Salt', 'Triple Sec',
+    'Ice', 'Maraschino Cherry', 'Orange Peel', 'Ginger Ale', 'Apricot Brandy', 'Lemon Juice',
+    'Sloe Gin', 'Southern Comfort', 'Lemon Peel', 'Orange Bitters', 'Yellow Chartreuse', 
+    'Creme De Cacao', 'Brandy', 'Pineapple Juice', 'Blackberry Brandy', 'Dark Rum', 'Egg White', 
+    'Club Soda', 'Apple Brandy', 'Applejack', 'Orange', 'Benedictine', 'Champagne', 'Grand Marnier', 
+    'Bitters', 'Scotch', 'Coffee Liqueur', 'Celery Salt', 'Tomato Juice', 'Worcestershire Sauce', 
+    'Blue Curacao', 'Orange Juice', 'Tia Maria', 'Grenadine', 'Egg', 'Cognac', 'Cherry Brandy', 
+    'Port', 'Dubonnet Rouge', 'Sugar Syrup', 'Tonic Water', 'Red Wine', 'Sherry'
+    ]
+    threshold: 1
+
+  # Contemporary Classic - at least one classic ingredient and one new era ingredient will be included in tagging
+
+  # Alcoholic - drink having at least one alcoholic ingredient - threshold 1
+  - tag: Alcoholic
+    ingredients: [
+    'Vodka', 'Gin', 'Tequila', 'Blended Whiskey', 'Apricot Brandy', 'Amaretto', 'Dark Rum', 
+    'Apple Brandy', 'Applejack', 'Wine', 'Champagne', 'Anejo Rum', 'Red Wine'
+    ]
+    threshold: 1
+
+    # USA - drink having USA ingredients - threshold 1
+  - tag: USA
+    ingredients: ['Bourbon', 'Coca-Cola', 'Blended Whiskey', 'Southern Comfort', 'Applejack', 'Club Soda']
+    threshold: 1
+
+    # Asia - drink having Asia ingredients - threshold 1
+  - tag: Asia
+    ingredients: ['Kummel']
+    threshold: 1
+
+    # Citrus - drink having citrus ingredients - threshold 1
+  - tag: Citrus
+    ingredients: ['Lime', 'Lemon', 'Lime Juice', 'Lemon Juice', 'Orange Peel', 'Orange', 'Orange Juice', 'Grapefruit Juice']
+    threshold: 1
+
+  # Brunch - drink having brunch ingredients - threshold 2
+  - tag: Brunch
+    ingredients: [
+    'Orange Juice', 'Champagne', 'Tomato Juice', 'Lemon Juice', 'Pineapple Juice', 'Tea', 
+    'Lemonade', 'Grapefruit Juice', 'Strawberries', 'Coffee Liqueur', 'Heavy cream', 
+    'Coca-Cola', 'Tonic Water', 'Lime Juice', 'Egg', 'Egg Yolk', 'Grenadine', 
+    'Celery Salt', 'Tabasco Sauce', 'Worcestershire Sauce'
+    ]
     threshold: 2
+
+  # Hangover - drink having hangover ingredients - threshold 1
+  - tag: Hangover
+    ingredients: [
+      'Tomato Juice', 'Celery Salt', 'Tabasco Sauce', 'Worcestershire Sauce', 
+      'Lemon Juice', 'Salt', 'Egg', 'Egg Yolk', 'Orange Juice', 'Lime Juice', 
+      'Club Soda', 'Soda water', 'Tea', 'Tonic Water', 'Ginger Ale'
+    ]
+    threshold: 2
+
+    # Mild - drink having mild ingredients - threshold 1
+  - tag: Mild
+    ingredients: [
+      'Light Cream', 'Heavy cream', 'Whipped Cream', 'Tea', 'Orange Juice', 
+      'Pineapple Juice', 'Sweet and Sour', 'Grenadine', 'Powdered Sugar', 
+      'Sugar Syrup', 'Lemonade', 'Strawberries'
+    ]
+    threshold: 2
+
+    # Expensive - drink having expensive ingredients - threshold 2
+  - tag: Expensive
+    ingredients: [
+      'Champagne', 'Cognac', 'Grand Marnier', 'Benedictine', 'Scotch', 
+      'Irish Whiskey', 'Green Chartreuse', 'Yellow Chartreuse', 'Drambuie',
+      'Port', 'Red Wine', 'Wine', 'Galliano'
+    ]
+    threshold: 2
+
+    # Savory - drink having savory ingredients - threshold 1
+  - tag: Savory
+    ingredients: [
+      'Celery Salt', 'Tomato Juice', 'Worcestershire Sauce', 
+      'Tabasco Sauce', 'Salt'
+    ]
+    threshold: 2
+
+    # StrongFlavor - drink having strong flavor ingredients - threshold 1
+  - tag: StrongFlavor
+    ingredients: [
+      'Angostura Bitters', 'Campari', 'Scotch', 'Green Chartreuse', 
+      'Yellow Chartreuse', 'Kahlua', 'Coffee Liqueur', 'Drambuie', 
+      'Tia Maria'
+    ]
+    threshold: 1
+
+    # Sour - drink having sour ingredients - threshold 1
+  - tag: Sour
+    ingredients: [
+      'Lemon', 'Lemon Juice', 'Lime', 'Lime Juice', 'Grapefruit Juice'
+    ]
+    threshold: 1
+
+    # Christmas - drink having Christmas ingredients - threshold 1
+  - tag: Christmas
+    ingredients: [
+      'Nutmeg', 'Brandy', 'Amaretto', 'Cinnamon', 'Egg Yolk', 
+      'Egg White', 'Heavy Cream', 'Whipped Cream', 'Apple Brandy'
+  ]
+    threshold: 1
+
+    # Beach - drink having beach ingredients - threshold 1
+  - tag: Beach
+    ingredients: [
+      'Coconut Cream', 'Pineapple Juice', 'Coconut', 'Rum', 'Cachaca',
+      'Orange Juice', 'Lime Juice', 'Grenadine', 'Blue Curacao'
+    ]
+    threshold: 1
+
+    # DinnerParty - drink having dinner party ingredients - threshold 2
+  - tag: DinnerParty
+    ingredients: [
+      'Champagne', 'Vodka', 'Gin', 'Dry Vermouth', 'Campari', 
+      'Sweet Vermouth', 'Scotch', 'Cognac', 'Port', 'Grand Marnier'
+    ]
+    threshold: 2
+
+    # Summer - drink having summer ingredients - threshold 2
+  - tag: Summer
+    ingredients: [
+      'Mint', 'Lemon', 'Lime', 'Soda water', 'Tonic Water', 
+      'Orange Juice', 'Lemon Juice', 'Lime Juice', 'Strawberries', 
+      'Grapefruit Juice', 'Pineapple Juice', 'Ice'
+    ]
+    threshold: 2
+
+    # Chilli - drink having chilli ingredients - threshold 1
+  - tag: Chilli
+    ingredients: [
+      'Tabasco Sauce'
+    ]
+    threshold: 1
+
+    # Dairy - drink having dairy ingredients - threshold 2
+  - tag: Dairy
+    ingredients: [
+      'Light Cream', 'Whipped Cream', 'Heavy Cream'
+    ]
+    threshold: 2
+
+    # Nutty - drink having nutty ingredients - threshold 2
+  - tag: Nutty
+    ingredients: [
+      'Amaretto', 'Nutmeg'
+    ]
+    threshold: 2
+
+    # Cold - drink having cold ingredients - threshold 2
+  - tag: Cold
+    ingredients:  [
+      'Ice', 'Soda water', 'Tonic Water', 'Champagne', 
+      'Club Soda', 'Carbonated Water', 'Whipped Cream'
+    ]
+    threshold: 2
+
+    # Fruity - drink having fruity ingredients - threshold 2
+  - tag: Fruity
+    ingredients: [
+      'Orange Juice', 'Pineapple Juice', 'Lemon Juice', 'Lime Juice', 
+      'Grapefruit Juice', 'Strawberries', 'Banana', 'Cherry', 'Lemon', 
+      'Lime', 'Orange', 'Peach brandy', 'Apricot Brandy'
+    ]
+    threshold: 2
+
+    # Breakfast - drink having breakfast ingredients - threshold 2
+  - tag: Breakfast
+    ingredients: [
+      'Orange Juice', 'Champagne', 'Tomato Juice', 'Coffee Liqueur', 
+      'Tea', 'Egg', 'Egg Yolk', 'Pineapple Juice', 'Lemon Juice'
+    ]
+    threshold: 2
+

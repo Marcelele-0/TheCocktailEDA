@@ -3,6 +3,7 @@
 - Automatic tag assignment based on ingredients in `data_augmentation.py`.
 - Added tags such as `Vegan`, `Vegetarian`, `Strong`, `Fruity`, `Nutty`, etc., based on ingredient definitions.
 
+
 ## [0.1.2] - 2024-10-10
 
 ### Added
@@ -11,10 +12,12 @@
 ### Changed
 - Moved the script for data augmentation from the `src` directory to `preprocessing_scripts`.
 
+
 ## [0.1.3] - 2024-10-10
 
 ### Removed
 - The `Alcoholic` tag has been identified as unnecessary since every cocktail in the dataset contains alcohol. This simplification allows for a more focused analysis on other characteristics of the cocktails.
+
 
 ## [0.1.4]
 
@@ -27,8 +30,10 @@
 - New functions added for data analysis:
 - Created the function analyze_data(data) to calculate and log descriptive statistics and missing values.
 
+
 ## [0.1.5]
 - Concept failed, starting from scratch.
+  
 
 ## [0.1.6] - 2024-10-15
 ### Added
@@ -45,7 +50,6 @@
 ### Removed
 Removed any redundant or unnecessary functions that were identified during the development of the new analysis features, streamlining the codebase. 
 
-# Changelog
 
 ## [0.1.7] - 2024-10-20
 ### Added
@@ -66,7 +70,8 @@ Removed any redundant or unnecessary functions that were identified during the d
 - Data processed by the new simplification function will be saved in the `data/processed/` directory.
 - Hydras output directory is now included in `.gitignore` to prevent clutter in the repository.
 
-# Creating the changelog text for version 0.1.8
+
+
 ## [0.1.8] - 2024-10-26
 ### Added
 - Implemented a function in the `ingredient_analysis.py` script to print unique ingredients from the dataset, enhancing data visibility and analysis.
@@ -87,3 +92,16 @@ Removed any redundant or unnecessary functions that were identified during the d
 
 ### Changed
 - Adjusted the tagging mechanism to utilize the new configuration, improving flexibility and maintainability in the tagging process.
+
+
+# [0.2.0] - 2024-10-28
+### Added
+- Documented the process of preparing for cocktail tagging, including ingredient classification and alcohol content analysis.
+- Developed functions  in `ingredient_analysis.py` to analyze unique ingredients based on their alcohol content.
+
+### Changed
+- Refined tagging definitions and criteria based on user feedback and ingredient analysis.
+
+### Notes
+- The tagging preparation process has established a framework for categorizing ingredients and tagging cocktails based on their characteristics.
+- Future developments will focus on implementing the tagging logic and refining classifications based on further data analysis.
