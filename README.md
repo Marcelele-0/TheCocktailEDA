@@ -134,3 +134,15 @@ The dataset is stored in JSON format in the `data/` folder.
   'Brunch' 'Hangover' 'Mild' 'Classic' 'Expensive' 'Savory' 'Strong'
   'StrongFlavor' 'Vegetarian' 'Sour' 'Christmas' 'Beach' 'DinnerParty'
   'Summer' 'Chilli' 'Dairy' 'Nutty' 'Cold' 'Fruity' 'Breakfast' 'NewEra']
+
+
+  ## Approach to Tagging and Ingredients
+  In our cocktail analysis project, we have adopted a structured and dynamic approach to tagging cocktails based on their ingredients. This system not only enhances the organization of our data but also facilitates deeper insights into the relationships between different cocktails and their components. The coctails will be clustered based on tags.
+
+  ### Tagging System
+  Our tagging framework utilizes a set of predefined tags that categorize cocktails based on their ingredient composition. Each tag has specific criteria that must be met, allowing for a flexible and dynamic assignment of tags. The key components of our tagging system include:
+    - **Tag Definitions**: Tags are defined in a configuration file using YAML format. Each tag has associated ingredients and a threshold that determines how many of those ingredients must be present in a cocktail for the tag to be assigned. This approach allows for easy modifications and additions to the tagging rules as our understanding of cocktails evolves.
+    - 
+    - **Ingredient Categorization**: Ingredients are categorized into various groups, such as strong, new era, classic, and regional ingredients. This classification helps in understanding the characteristics of cocktails and their flavor profiles.
+    - 
+    - **Dynamic Assignment**: The tagging mechanism dynamically assigns tags based on the ingredients present in each cocktail. This means that as we expand our ingredient database or modify our tagging criteria, the tagging process remains adaptable and robust.
