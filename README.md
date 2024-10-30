@@ -12,37 +12,37 @@ This project focuses on exploratory data analysis (EDA) and clustering of cockta
 This project performs EDA and clustering on a dataset of cocktails and their ingredients. The dataset is available in the `data/` folder.
 
 '''txt
-  project-root/
-  ├── configs/                             # Configuration files for analysis and preprocessing
-  │   ├── analysis_configs/                # Analysis-specific configuration files
-  │   │   ├── general_analysis_config.yaml
-  │   │   ├── ingredient_analysis_config.yaml
-  │   │   └── tag_analysis_config.yaml
-  │   ├── preprocessing_configs/           # Preprocessing-specific configuration files
-  │   │   ├── data_simplification_config.yaml
-  │   │   ├── tagging_config.yaml
-  │   │   └── global_configs.yaml
-  ├── data/                                # Data directory
-  │   ├── processed/                       # Processed dataset
-  │   │   ├── processed_cocktail_dataset.json
-  │   │   └── tagged_cocktail_dataset.json
-  │   └── raw/                             # Raw dataset (add any initial datasets here)
-  ├── notebooks/                           # Jupyter notebooks for data exploration and visualization
-  ├── outputs/                             # Directory for any output files or results
-  ├── src/                                 # Source code
-  │   ├── analysis/                        # Analysis-related scripts
-  │   │   ├── general_analysis.py
-  │   │   ├── ingredients_analysis.py
-  │   │   └── tag_analysis.py
-  │   ├── preprocessing_scripts/           # Preprocessing scripts
-  │   │   ├── simplify_data.py
-  │   │   └── tagging_script.py
-  ├── .gitignore                           # Git ignore file
-  ├── CHANGELOG.md                         # Project changelog
-  ├── environment.yaml                     # Conda environment setup file
-  ├── pyproject.toml                       # Project configuration file
-  ├── README.md                            # Project README with documentation
-  └── requirements.txt                     # Python dependencies
+project-root/
+├── configs/                             # Configuration files for analysis and preprocessing
+│   ├── analysis_configs/                # Analysis-specific configuration files
+│   │   ├── general_analysis_config.yaml
+│   │   ├── ingredient_analysis_config.yaml
+│   │   └── tag_analysis_config.yaml
+│   ├── preprocessing_configs/           # Preprocessing-specific configuration files
+│   │   ├── data_simplification_config.yaml
+│   │   ├── tagging_config.yaml
+│   │   └── global_configs.yaml
+├── data/                                # Data directory
+│   ├── processed/                       # Processed dataset
+│   │   ├── processed_cocktail_dataset.json
+│   │   └── tagged_cocktail_dataset.json
+│   └── raw/                             # Raw dataset (add any initial datasets here)
+├── notebooks/                           # Jupyter notebooks for data exploration and visualization
+├── outputs/                             # Directory for any output files or results
+├── src/                                 # Source code
+│   ├── analysis/                        # Analysis-related scripts
+│   │   ├── general_analysis.py
+│   │   ├── ingredients_analysis.py
+│   │   └── tag_analysis.py
+│   ├── preprocessing_scripts/           # Preprocessing scripts
+│   │   ├── simplify_data.py
+│   │   └── tagging_script.py
+├── .gitignore                           # Git ignore file
+├── CHANGELOG.md                         # Project changelog
+├── environment.yaml                     # Conda environment setup file
+├── pyproject.toml                       # Project configuration file
+├── README.md                            # Project README with documentation
+└── requirements.txt                     # Python dependencies
 '''
 
 
