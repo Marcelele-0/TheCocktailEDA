@@ -11,7 +11,9 @@ This project focuses on exploratory data analysis (EDA) and clustering of cockta
 ## 1. Introduction
 This project performs EDA and clustering on a dataset of cocktails and their ingredients. The dataset is available in the `data/` folder.
 
-'''txt
+
+### Project Structure
+```txt
 project-root/
 ├── configs/                             # Configuration files for analysis and preprocessing
 │   ├── analysis_configs/                # Analysis-specific configuration files
@@ -43,7 +45,7 @@ project-root/
 ├── pyproject.toml                       # Project configuration file
 ├── README.md                            # Project README with documentation
 └── requirements.txt                     # Python dependencies
-'''
+```
 
 
 ## 2. Installation
