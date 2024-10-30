@@ -73,6 +73,9 @@ def assign_other_tags(cocktail, other_definitions):
 
     return tags
 
+def save_simplified_data(df, file_path):
+    '''Save the simplified DataFrame to a JSON file'''
+    df.to_json(file_path, orient='records', indent=4)
 
 @hydra.main(version_base=None, config_path="../../configs/preprocessing_configs", config_name="tagging_config")
 def main(cfg: DictConfig):
@@ -80,22 +83,18 @@ def main(cfg: DictConfig):
     global_config = OmegaConf.load("configs/global_configs.yaml")
 
     # Select data file based on data type in global config
-    if global_config.data_type == 'raw':
-        file_path = 'data/raw/cocktail_dataset.json'
-    elif global_config.data_type == 'processed':
-        file_path = 'data/processed/processed_cocktail_dataset.json'
-    else:
-        logging.error("Invalid data type specified in global config. Use 'raw' or 'processed'.")
-        return None
+    input_file = 'data/raw/cocktail_dataset.json' if global_config.data_type == 'raw' else 'data/processed/processed_cocktail_dataset.json'
+    output_file = 'data/processed/tagged_cocktail_dataset.json'
 
     # Load data
     try:
-        cocktails = pd.read_json(file_path)
+        cocktails = pd.read_json(input_file)
     except Exception as e:
         logging.critical(f"Error loading data: {e}")
         return None
 
     # Process each cocktail in the dataset
+    tags_column = []
     for _, cocktail in cocktails.iterrows():
         tags = []
 
@@ -111,7 +110,15 @@ def main(cfg: DictConfig):
         if cfg.functions.assign_other_tags:
             tags.extend(assign_other_tags(cocktail, cfg.tags_definitions.other_tags))
 
-        cocktail['tags'] = tags
+        tags_column.append(tags)
+
+    # Remove duplicate tags by converting to a set and back to a list
+    cocktail['tags'] = list(set(tags))
+
+    # Save updated data
+    logging.info("Saving tagged data to %s", output_file)
+    save_simplified_data(cocktails, output_file)
+    logging.info("Data processing complete!")
 
 if __name__ == "__main__":
     main()

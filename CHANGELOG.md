@@ -105,3 +105,21 @@ Removed any redundant or unnecessary functions that were identified during the d
 ### Notes
 - The tagging preparation process has established a framework for categorizing ingredients and tagging cocktails based on their characteristics.
 - Future developments will focus on implementing the tagging logic and refining classifications based on further data analysis.
+
+
+# [0.2.1] - 2024-10-30
+### Added
+- Implemented tagging logic in `tagging_script.py` with functions to assign tags based on ingredient classifications, including classic, contemporary classic, new era, vegan, vegetarian, and other custom tags.
+- Added configuration options in `tagging_config.yaml` to enable/disable specific tagging functions, allowing for flexible tagging logic adjustments.
+- Developed functionality in `tagging_script.py` to deduplicate tags, ensuring unique tag assignments for each cocktail.
+
+### Changed
+- Refined the classic and contemporary classic tagging criteria, using a threshold approach to distinguish between tags based on ingredient presence.
+- Updated `tagging_config.yaml` with more detailed tag definitions and thresholds for each tag type, enhancing customization options.
+
+### Fixed
+- Resolved an issue with duplicate tag assignments by implementing a set-based deduplication method, which ensures each tag is added only once per cocktail.
+
+### Notes
+- The tagging implementation is now operational, creating a foundation for analyzing cocktail characteristics and enabling targeted categorization based on user-defined criteria.
+- Future updates will refine tag definitions further and expand the tagging framework to support more complex categorization as ingredient analysis evolves.

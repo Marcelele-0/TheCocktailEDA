@@ -11,21 +11,40 @@ This project focuses on exploratory data analysis (EDA) and clustering of cockta
 ## 1. Introduction
 This project performs EDA and clustering on a dataset of cocktails and their ingredients. The dataset is available in the `data/` folder.
 
-### Project Structure
-```txt
-project-root/
-├── configs/                # Configuration files
-├── data/                   
-│   ├── raw                 # Dataset in JSON format
-│   ├── processed           # Processed dataset
-├── notebooks/              # Jupyter notebooks for results visualization
-├── src/                    # Core Python code
-│   ├── datamodule.py       # Preprocessing logic
-│   ├── clustering.py       # Clustering logic
-├── README.md               # Project documentation
-├── environment.yaml        # Conda environment setup
-└── requirements.txt        # List of required dependencies
-```
+'''txt
+  project-root/
+  ├── configs/                             # Configuration files for analysis and preprocessing
+  │   ├── analysis_configs/                # Analysis-specific configuration files
+  │   │   ├── general_analysis_config.yaml
+  │   │   ├── ingredient_analysis_config.yaml
+  │   │   └── tag_analysis_config.yaml
+  │   ├── preprocessing_configs/           # Preprocessing-specific configuration files
+  │   │   ├── data_simplification_config.yaml
+  │   │   ├── tagging_config.yaml
+  │   │   └── global_configs.yaml
+  ├── data/                                # Data directory
+  │   ├── processed/                       # Processed dataset
+  │   │   ├── processed_cocktail_dataset.json
+  │   │   └── tagged_cocktail_dataset.json
+  │   └── raw/                             # Raw dataset (add any initial datasets here)
+  ├── notebooks/                           # Jupyter notebooks for data exploration and visualization
+  ├── outputs/                             # Directory for any output files or results
+  ├── src/                                 # Source code
+  │   ├── analysis/                        # Analysis-related scripts
+  │   │   ├── general_analysis.py
+  │   │   ├── ingredients_analysis.py
+  │   │   └── tag_analysis.py
+  │   ├── preprocessing_scripts/           # Preprocessing scripts
+  │   │   ├── simplify_data.py
+  │   │   └── tagging_script.py
+  ├── .gitignore                           # Git ignore file
+  ├── CHANGELOG.md                         # Project changelog
+  ├── environment.yaml                     # Conda environment setup file
+  ├── pyproject.toml                       # Project configuration file
+  ├── README.md                            # Project README with documentation
+  └── requirements.txt                     # Python dependencies
+'''
+
 
 ## 2. Installation
 
@@ -141,8 +160,7 @@ The dataset is stored in JSON format in the `data/` folder.
 
   ### Tagging System
   Our tagging framework utilizes a set of predefined tags that categorize cocktails based on their ingredient composition. Each tag has specific criteria that must be met, allowing for a flexible and dynamic assignment of tags. The key components of our tagging system include:
-    - **Tag Definitions**: Tags are defined in a configuration file using YAML format. Each tag has associated ingredients and a threshold that determines how many of those ingredients must be present in a cocktail for the tag to be assigned. This approach allows for easy modifications and additions to the tagging rules as our understanding of cocktails evolves.
-    - 
+    - **Tag Definitions**: Tags are defined in a configuration file using YAML format. Each tag has associated ingredients and a threshold that determines how many of those ingredients must be present in a cocktail for the tag to be assigned. This approach allows for easy modifications and additions to the tagging rules as our understanding of cocktails evolves. Tags are defined in a YAML configuration file (tagging_config.yaml).
     - **Ingredient Categorization**: Ingredients are categorized into various groups, such as strong, new era, classic, and regional ingredients. This classification helps in understanding the characteristics of cocktails and their flavor profiles.
-    - 
     - **Dynamic Assignment**: The tagging mechanism dynamically assigns tags based on the ingredients present in each cocktail. This means that as we expand our ingredient database or modify our tagging criteria, the tagging process remains adaptable and robust.
+  
