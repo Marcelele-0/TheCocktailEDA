@@ -2,4 +2,4 @@
 
 functions:
   load_data: true                # enable whole section
-  analyze_tags: true
+  analyze_tags: false

@@ -110,7 +110,13 @@ def main(cfg: DictConfig):
         if cfg.functions.assign_other_tags:
             tags.extend(assign_other_tags(cocktail, cfg.tags_definitions.other_tags))
 
-        tags_column.append(tags)
+        # Remove duplicate tags and add to cocktail's tags
+        unique_tags = list(set(tags))
+        tags_column.append(unique_tags)
+
+    # After processing all cocktails, assign the tags to the DataFrame
+    cocktails['tags'] = tags_column
+
 
     # Remove duplicate tags by converting to a set and back to a list
     cocktail['tags'] = list(set(tags))
