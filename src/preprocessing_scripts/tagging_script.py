@@ -8,7 +8,6 @@ logging.basicConfig(level=logging.DEBUG, format='%(levelname)s - %(message)s')
 
 def assign_classic_tags(cocktail, classic_definitions):
     """Assign classic, contemporary classic, or new era tags to a cocktail based on ingredient structure."""
-
     ingredients_map = {definition['tag']: definition['ingredients'] for definition in classic_definitions}
 
     classic_ingredients = ingredients_map.get('Classic', [])
@@ -32,11 +31,8 @@ def assign_classic_tags(cocktail, classic_definitions):
 
     return []
 
-
 def assign_vegan_vegetarian_tags(cocktail, vegan_definitions):
     """Assign vegan or vegetarian tags by excluding non-vegan/vegetarian ingredients."""
-
-    # Konwersja na mapowanie do łatwego dostępu do składników niewegańskich i niewegetariańskich
     vegan_map = {definition['tag']: definition['ingredients'] for definition in vegan_definitions}
 
     non_vegan_ingredients = vegan_map.get('NonVegan', [])
@@ -61,8 +57,6 @@ def assign_vegan_vegetarian_tags(cocktail, vegan_definitions):
 
 def assign_other_tags(cocktail, other_definitions):
     """Assign other tags based on additional definitions."""
-
-    # Konwersja definicji innych tagów na mapowanie
     other_tags_map = {definition['tag']: definition['ingredients'] for definition in other_definitions}
 
     tags = []
@@ -79,7 +73,6 @@ def save_simplified_data(df, file_path):
 
 @hydra.main(version_base=None, config_path="../../configs/preprocessing_configs", config_name="tagging_config")
 def main(cfg: DictConfig):
-
     global_config = OmegaConf.load("configs/global_configs.yaml")
 
     # Select data file based on data type in global config
@@ -96,6 +89,10 @@ def main(cfg: DictConfig):
     # Process each cocktail in the dataset
     tags_column = []
     for _, cocktail in cocktails.iterrows():
+        # Clear existing tags for the cocktail
+        cocktail['tags'] = []
+
+        # Assign tags
         tags = []
 
         # Assign classic tags if enabled in config
@@ -112,16 +109,11 @@ def main(cfg: DictConfig):
 
         # Remove duplicate tags and add to cocktail's tags
         unique_tags = list(set(tags))
+        cocktail['tags'] = unique_tags
         tags_column.append(unique_tags)
 
-    # After processing all cocktails, assign the tags to the DataFrame
+    # Assign the tags to the DataFrame
     cocktails['tags'] = tags_column
-
-
-    # Remove duplicate tags by converting to a set and back to a list
-    cocktail['tags'] = list(set(tags))
-    cocktails['tags'] = cocktails['tags'].apply(lambda x: x if isinstance(x, list) else [])
-
 
     # Save updated data
     logging.info("Saving tagged data to %s", output_file)

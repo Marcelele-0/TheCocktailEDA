@@ -4,7 +4,6 @@ functions:
   assign_vegan_vegetarian_tags: true   # True if vegan and vegetarian tags should be assigned
   assign_other_tags: true            # True if other tags should be assigned
 
-
 tags_definitions:
   classic_tags:
     # New Era - two or more new era ingredients - threshold 2
@@ -21,7 +20,6 @@ tags_definitions:
       'Sugar Syrup', 'Pineapple', 'Tonic Water', 'Orange spiral', 'Strawberries', 'Heavy cream', 'Galliano', 'Irish Whiskey', 
       'Peach brandy', 'Sweet and Sour', 'Green Chartreuse', 'Drambuie', 'Orgeat Syrup', 'Grapefruit Juice', 
       'Raspberry syrup', 'Sherry', 'Coffee Brandy', 'Lime vodka', 'Lemon-lime soda']
-      threshold: 2 
     
     # Classic - two or more classic ingredients - threshold 2
     - tag: Classic 
@@ -37,12 +35,10 @@ tags_definitions:
       'Blue Curacao', 'Orange Juice', 'Tia Maria', 'Grenadine', 'Egg', 'Cognac', 'Cherry Brandy', 
       'Port', 'Dubonnet Rouge', 'Sugar Syrup', 'Tonic Water', 'Red Wine', 'Sherry'
       ]
-      threshold: 1
 
     # Contemporary Classic - at least one classic ingredient and one new era ingredient will be included in tagging
     - tag: ContemporaryClassic
       ingredients: []
-      threshold: 1
   
   vegan_vegetarian_tags:
     # Vegan - one not vegan ingredient is enough to not be vegan - threshold 1
@@ -52,7 +48,6 @@ tags_definitions:
         'Powdered Sugar', 'Blended Whiskey', 'Brandy', 'Egg White', 'Kahlua', 'Lemon vodka', 
         'Egg', 'Egg Yolk', 'Chocolate Ice-cream', 'Galliano', 'Irish Whiskey', 'Peach brandy'
       ]
-      threshold: 1
 
     # Non Vegetarian - one not vegetarian ingredient is enough to not be vegetarian - threshold 1
     - tag: NonVegetarian
@@ -60,49 +55,29 @@ tags_definitions:
         'Light Rum', 'Bourbon', 'Vodka', 'Gin', 'Tequila', 'Cream', 'Egg White', 'Kahlua', 
         'Egg', 'Egg Yolk', 'Chocolate Ice-cream', 'Galliano', 'Irish Whiskey', 'Peach brandy'
         ]
-      threshold: 1
-
 
   other_tags:
     # International Bartenders Association - hard to asing this as and extra tag based on ingredients - threshold 3
     - tag: IBA      
-      ingredients: [
-        'Light Rum', 'Vodka', 'Gin', 'Tequila', 'Sweet Vermouth', 'Campari', 'Dry Vermouth', 
-        'Triple Sec', 'Bourbon', 'Brandy', 'Scotch', 'Champagne'
-        ]
-      threshold: 3
-
+      ingredients: [] # cleared for clustering
 
     # Strong - two or more strong ingredients - threshold 2
     - tag: Strong
       ingredients: ['Vodka', 'Gin', 'Tequila', 'Blended Whiskey', 'Apricot Brandy', 
-      'Amaretto', 'Dark Rum', 'Apple Brandy', 'Applejack', 'Wine', 'Champagne', 
-      'Anejo Rum', 'Red Wine']
-      threshold: 2
-
+      'Dark Rum', 'Apple Brandy', 'Applejack',  
+      ]
 
     # Alcoholic - drink having at least one alcoholic ingredient - threshold 1
     - tag: Alcoholic
-      ingredients: [
-      'Vodka', 'Gin', 'Tequila', 'Blended Whiskey', 'Apricot Brandy', 'Amaretto', 'Dark Rum', 
-      'Apple Brandy', 'Applejack', 'Wine', 'Champagne', 'Anejo Rum', 'Red Wine'
-      ]
-      threshold: 1
+      ingredients: [ ] # cleared for clustering
 
     # USA - drink having USA ingredients - threshold 1
     - tag: USA
       ingredients: ['Bourbon', 'Coca-Cola', 'Blended Whiskey', 'Southern Comfort', 'Applejack', 'Club Soda']
-      threshold: 1
-
-    # Asia - drink having Asia ingredients - threshold 1
-    - tag: Asia
-      ingredients: ['Kummel']
-      threshold: 1
 
     # Citrus - drink having citrus ingredients - threshold 1
     - tag: Citrus
       ingredients: ['Lime', 'Lemon', 'Lime Juice', 'Lemon Juice', 'Orange Peel', 'Orange', 'Orange Juice', 'Grapefruit Juice']
-      threshold: 1
 
     # Brunch - drink having brunch ingredients - threshold 2
     - tag: Brunch
@@ -112,7 +87,6 @@ tags_definitions:
       'Coca-Cola', 'Tonic Water', 'Lime Juice', 'Egg', 'Egg Yolk', 'Grenadine', 
       'Celery Salt', 'Tabasco Sauce', 'Worcestershire Sauce'
       ]
-      threshold: 2
 
     # Hangover - drink having hangover ingredients - threshold 1
     - tag: Hangover
@@ -121,7 +95,6 @@ tags_definitions:
         'Lemon Juice', 'Salt', 'Egg', 'Egg Yolk', 'Orange Juice', 'Lime Juice', 
         'Club Soda', 'Soda water', 'Tea', 'Tonic Water', 'Ginger Ale'
       ]
-      threshold: 2
 
     # Mild - drink having mild ingredients - threshold 1
     - tag: Mild
@@ -130,7 +103,6 @@ tags_definitions:
         'Pineapple Juice', 'Sweet and Sour', 'Grenadine', 'Powdered Sugar', 
         'Sugar Syrup', 'Lemonade', 'Strawberries'
       ]
-      threshold: 2
 
     # Expensive - drink having expensive ingredients - threshold 2
     - tag: Expensive
@@ -139,15 +111,6 @@ tags_definitions:
         'Irish Whiskey', 'Green Chartreuse', 'Yellow Chartreuse', 'Drambuie',
         'Port', 'Red Wine', 'Wine', 'Galliano'
       ]
-      threshold: 2
-
-    # Savory - drink having savory ingredients - threshold 1
-    - tag: Savory
-      ingredients: [
-        'Celery Salt', 'Tomato Juice', 'Worcestershire Sauce', 
-        'Tabasco Sauce', 'Salt'
-      ]
-      threshold: 2
 
     # StrongFlavor - drink having strong flavor ingredients - threshold 1
     - tag: StrongFlavor
@@ -156,14 +119,7 @@ tags_definitions:
         'Yellow Chartreuse', 'Kahlua', 'Coffee Liqueur', 'Drambuie', 
         'Tia Maria'
       ]
-      threshold: 1
 
-    # Sour - drink having sour ingredients - threshold 1
-    - tag: Sour
-      ingredients: [
-        'Lemon', 'Lemon Juice', 'Lime', 'Lime Juice', 'Grapefruit Juice'
-      ]
-      threshold: 1
 
     # Christmas - drink having Christmas ingredients - threshold 1
     - tag: Christmas
@@ -171,7 +127,6 @@ tags_definitions:
         'Nutmeg', 'Brandy', 'Amaretto', 'Cinnamon', 'Egg Yolk', 
         'Egg White', 'Heavy Cream', 'Whipped Cream', 'Apple Brandy'
     ]
-      threshold: 1
 
     # Beach - drink having beach ingredients - threshold 1
     - tag: Beach
@@ -179,15 +134,13 @@ tags_definitions:
         'Coconut Cream', 'Pineapple Juice', 'Coconut', 'Rum', 'Cachaca',
         'Orange Juice', 'Lime Juice', 'Grenadine', 'Blue Curacao'
       ]
-      threshold: 1
 
     # DinnerParty - drink having dinner party ingredients - threshold 2
     - tag: DinnerParty
       ingredients: [
-        'Champagne', 'Vodka', 'Gin', 'Dry Vermouth', 'Campari', 
+        'Champagne', 'Dry Vermouth', 'Campari', 
         'Sweet Vermouth', 'Scotch', 'Cognac', 'Port', 'Grand Marnier'
       ]
-      threshold: 2
 
     # Summer - drink having summer ingredients - threshold 2
     - tag: Summer
@@ -196,28 +149,6 @@ tags_definitions:
         'Orange Juice', 'Lemon Juice', 'Lime Juice', 'Strawberries', 
         'Grapefruit Juice', 'Pineapple Juice', 'Ice'
       ]
-      threshold: 2
-
-    # Chilli - drink having chilli ingredients - threshold 1
-    - tag: Chilli
-      ingredients: [
-        'Tabasco Sauce'
-      ]
-      threshold: 1
-
-    # Dairy - drink having dairy ingredients - threshold 2
-    - tag: Dairy
-      ingredients: [
-        'Light Cream', 'Whipped Cream', 'Heavy Cream'
-      ]
-      threshold: 2
-
-    # Nutty - drink having nutty ingredients - threshold 1
-    - tag: Nutty
-      ingredients: [
-        'Amaretto', 'Nutmeg'
-      ]
-      threshold: 1
 
     # Cold - drink having cold ingredients - threshold 2
     - tag: Cold
@@ -225,16 +156,14 @@ tags_definitions:
         'Ice', 'Soda water', 'Tonic Water', 'Champagne', 
         'Club Soda', 'Carbonated Water', 'Whipped Cream'
       ]
-      threshold: 2
 
     # Fruity - drink having fruity ingredients - threshold 2
     - tag: Fruity
       ingredients: [
         'Orange Juice', 'Pineapple Juice', 'Lemon Juice', 'Lime Juice', 
-        'Grapefruit Juice', 'Strawberries', 'Banana', 'Cherry', 'Lemon', 
-        'Lime', 'Orange', 'Peach brandy', 'Apricot Brandy'
+        'Grapefruit Juice', 'Strawberries', 'Banana', 'Cherry',
+        'Lime', 'Orange', 'Peach brandy'
       ]
-      threshold: 2
 
     # Breakfast - drink having breakfast ingredients - threshold 2
     - tag: Breakfast
@@ -242,5 +171,3 @@ tags_definitions:
         'Orange Juice', 'Champagne', 'Tomato Juice', 'Coffee Liqueur', 
         'Tea', 'Egg', 'Egg Yolk', 'Pineapple Juice', 'Lemon Juice'
       ]
-      threshold: 2
-

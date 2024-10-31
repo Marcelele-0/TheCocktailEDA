@@ -12,22 +12,16 @@ tags_indices:
   Strong: 7
   Alcoholic: 8
   USA: 9
-  Asia: 10
-  Citrus: 11
-  Brunch: 12
-  Hangover: 13
-  Mild: 14
-  Expensive: 15
-  Savory: 16
-  StrongFlavor: 17
-  Sour: 18
-  Christmas: 19
-  Beach: 20
-  DinnerParty: 21
-  Summer: 22
-  Chilli: 23
-  Dairy: 24
-  Nutty: 25
-  Cold: 26
-  Fruity: 27
-  Breakfast: 28
+  Citrus: 10
+  Brunch: 11
+  Hangover: 12
+  Mild: 13
+  Expensive: 14
+  StrongFlavor: 15
+  Christmas: 16
+  Beach: 17
+  DinnerParty: 18
+  Summer: 19
+  Cold: 20
+  Fruity: 21
+  Breakfast: 22
