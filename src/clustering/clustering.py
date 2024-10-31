@@ -10,7 +10,7 @@ import logging
 warnings.filterwarnings("ignore", category=UserWarning)  # Ignore UserWarning for KMeans
 
 # Set up logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 def load_data(filepath):
@@ -46,13 +46,13 @@ def log_cluster_counts(cocktail_data):
     kmeans_counts = cocktail_data['kmeans_cluster'].value_counts()
     agg_counts = cocktail_data['agg_cluster'].value_counts()
 
-    logger.debug("Number of cocktails in each K-means cluster:")
+    logger.info("Number of cocktails in each K-means cluster:")
     for cluster, count in kmeans_counts.items():
-        logger.debug(f"Cluster {cluster}: {count} cocktails")
+        logger.info(f"Cluster {cluster}: {count} cocktails")
 
     logger.info("Number of cocktails in each Agglomerative cluster:")
     for cluster, count in agg_counts.items():
-        logger.debug(f"Cluster {cluster}: {count} cocktails")
+        logger.info(f"Cluster {cluster}: {count} cocktails")
 
 def find_optimal_clusters(tags_df, max_clusters=10):
     """Find the optimal number of clusters based on silhouette score."""
@@ -60,7 +60,7 @@ def find_optimal_clusters(tags_df, max_clusters=10):
     best_n = 2  # Start from 2 clusters
     scores = []
 
-    for n_clusters in range(2, max_clusters + 1):
+    for n_clusters in range(6, max_clusters + 1):
         kmeans = KMeans(n_clusters=n_clusters, random_state=0, n_init=10)
         kmeans_labels = kmeans.fit_predict(tags_df)
 

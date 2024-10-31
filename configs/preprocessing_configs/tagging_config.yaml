@@ -1,8 +1,8 @@
 # TAGGING CONFIGURATION
 functions:
-  assign_classic_tags: false          # True if classic tags should be assigned
+  assign_classic_tags: true        # True if classic tags should be assigned
   assign_vegan_vegetarian_tags: true   # True if vegan and vegetarian tags should be assigned
-  assign_other_tags: true              # True if other tags should be assigned
+  assign_other_tags: true            # True if other tags should be assigned
 
 
 tags_definitions:
