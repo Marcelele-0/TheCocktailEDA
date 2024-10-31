@@ -8,26 +8,18 @@ tags_indices:
   ContemporaryClassic: 3
   NonVegan: 4
   NonVegetarian: 5
-  IBA: 6
-  Strong: 7
-  Alcoholic: 8
-  USA: 9
-  Asia: 10
-  Citrus: 11
-  Brunch: 12
-  Hangover: 13
-  Mild: 14
-  Expensive: 15
-  Savory: 16
-  StrongFlavor: 17
-  Sour: 18
-  Christmas: 19
-  Beach: 20
-  DinnerParty: 21
-  Summer: 22
-  Chilli: 23
-  Dairy: 24
-  Nutty: 25
-  Cold: 26
-  Fruity: 27
-  Breakfast: 28
+  Strong: 6
+  USA: 7
+  Citrus: 8
+  Brunch: 9
+  Hangover: 10
+  Mild: 11
+  Expensive: 12
+  StrongFlavor: 13
+  Christmas: 14
+  Beach: 15
+  DinnerParty: 16
+  Summer: 17
+  Cold: 18
+  Fruity: 19
+  Breakfast: 20

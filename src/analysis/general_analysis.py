@@ -6,8 +6,17 @@ from omegaconf import DictConfig, OmegaConf
 # Configure logging with a custom format
 logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s')
 
+
 def load_data(file_path):
-    """Load JSON data from a specified file."""
+    """
+    Load JSON data from a specified file.
+
+    Parameters:
+    file_path (str): The path to the JSON file to be loaded.
+
+    Returns:
+    pd.DataFrame: The loaded data as a DataFrame, or None if an error occurs.
+    """
     try:
         data = pd.read_json(file_path)
         logging.info(f"Data loaded successfully from {file_path}.")
@@ -16,8 +25,23 @@ def load_data(file_path):
         logging.critical(f"Error loading data: {e}")
         return None
 
+
 def analyze_columns(data):
-    """Analyze each column in the dataset."""
+    """
+    Analyze each column in the dataset.
+
+    This function logs detailed analysis for each column in the provided DataFrame.
+    It handles columns containing lists and dictionaries, providing unique counts,
+    most common values, and their frequencies. For numeric columns, it also logs
+    descriptive statistics.
+
+    Parameters:
+    data (pd.DataFrame): The dataset to be analyzed. Each column in the DataFrame
+                         will be analyzed individually.
+
+    Returns:
+    None
+    """
     logging.info("Analyzing each column in the dataset:")
 
     for column in data.columns:
@@ -61,8 +85,17 @@ def analyze_columns(data):
                 stats = data[column].describe()
                 logging.info(f"Statistics:\n{stats}")
 
+
 def generate_descriptive_stats(data):
-    """Analyze the dataset and print descriptive statistics and missing values."""
+    """
+    Generate and log descriptive statistics and missing values for the dataset.
+
+    Parameters:
+    data (pd.DataFrame): The dataset to be analyzed.
+
+    Returns:
+    None
+    """
     descriptive_stats = data.describe(include='all')
     logging.info(f"Descriptive Statistics:\n{descriptive_stats}")
 
@@ -75,6 +108,15 @@ def generate_descriptive_stats(data):
 
 @hydra.main(version_base=None, config_path="../../configs/analysis_configs/", config_name="general_analysis_config")
 def main(cfg: DictConfig):
+    """
+    Main function to execute the analysis based on the configuration.
+
+    Parameters:
+    cfg (DictConfig): The configuration object containing settings for the analysis.
+
+    Returns:
+    None
+    """
     # Load global config (data_type)
     global_config = OmegaConf.load("configs/global_configs.yaml")
 

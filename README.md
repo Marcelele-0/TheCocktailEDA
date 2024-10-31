@@ -4,9 +4,10 @@ This project focuses on exploratory data analysis (EDA) and clustering of cockta
 
 ## Table of Contents
 1. Introduction
-2. Installation
+2. Installation and following 
 3. Dataset
 4. EDA Conclusions
+5. Silhouette Score Results
 
 ## 1. Introduction
 This project performs EDA and clustering on a dataset of cocktails and their ingredients. The dataset is available in the `data/` folder.
@@ -27,16 +28,19 @@ project-root/
 ├── data/                                # Data directory
 │   ├── processed/                       # Processed dataset
 │   │   ├── processed_cocktail_dataset.json
-│   │   └── tagged_cocktail_dataset.json
+│   │   └── clustered_cocktail_dataset.json
 │   └── raw/                             # Raw dataset (add any initial datasets here)
 ├── notebooks/                           # Jupyter notebooks for data exploration and visualization
 ├── outputs/                             # Directory for any output files or results
 ├── src/                                 # Source code
+│   ├── clustering/  
+│   │   └── clustering.py
 │   ├── analysis/                        # Analysis-related scripts
 │   │   ├── general_analysis.py
 │   │   ├── ingredients_analysis.py
 │   │   └── tag_analysis.py
 │   ├── preprocessing_scripts/           # Preprocessing scripts
+│   │   ├── one_hot_encode_tags.py
 │   │   ├── simplify_data.py
 │   │   └── tagging_script.py
 ├── .gitignore                           # Git ignore file
@@ -53,7 +57,7 @@ project-root/
 ### Create Conda Environment
 1. Clone this repository:
     ```bash
-    git clone https://github.com/Solvro/rekrutacja/blob/main/machine_learning.md
+    git clone https://github.com/Marcelele-0/TheCocktailEDA
     cd TheCocktailEDA
     ```
 2. Create and activate the Conda environment:
@@ -66,6 +70,27 @@ project-root/
      ```bash
      pip install -r requirements.txt
      ```
+
+### Usage
+- Make sure to set global config to use processed data.
+- You can enable and run analysis by choosing interesting functions in configs and run them with:
+  ```bash
+    python src/analysis/general_analysis.py
+    python src/analysis/ingredients_analysis.py
+    python src/analysis/tag_analysis.py
+  ```
+- You can preprocess data by running (configs are set up correctly by default - make sure global config is set to processed data if you changed it in analysis):
+  ```bash
+    python src/preprocessing_scripts/simplify_data.py
+    python src/preprocessing_scripts/tagging_script.py
+    python src/preprocessing_scripts/one_hot_encode_tags.py
+  ```
+
+- Now cluster the data by (config is not yet set up so it will inform about everything):
+  ```bash 
+    python src/clustering/clustering.py 
+  ```
+
 
 ## 3. Dataset
 The dataset is stored in JSON format in the `data/` folder. 
@@ -172,3 +197,21 @@ The dataset is stored in JSON format in the `data/` folder.
     - **Ingredient Categorization**: Ingredients are categorized into various groups, such as strong, new era, classic, and regional ingredients. This classification helps in understanding the characteristics of cocktails and their flavor profiles.
     - **Dynamic Assignment**: The tagging mechanism dynamically assigns tags based on the ingredients present in each cocktail. This means that as we expand our ingredient database or modify our tagging criteria, the tagging process remains adaptable and robust.
   
+## Silhouette Score Results
+
+At the beginning of the project, the Silhouette Score was approximately **0.18**, indicating relatively low clustering quality. Consequently, several iterations of modifications were made to the tags and data to enhance the results.
+
+### Actions Taken
+
+1. **Disabling Certain Tags**: It was determined that disabling the assignment of specific tags allowed for clearer grouping. The following main tags were turned off:
+   - Classic
+   - Contemporary Classic
+   - New Era
+  
+2. **Deleting Tags Completely**: Some tags were found to be overly homogeneous or too specific, leading to their removal. For example 'Chili' - low presence 'Alcoholic' - too high presence
+
+3. **Using MinMaxScaler** to appply weights.
+
+### Result: The Silhouette Score increased to **above 0.3**, indicating a significant improvement in clustering quality and better differentiation between groups.
+
+These changes were implemented to achieve more coherent and interpretable clusters while enhancing the readability of the results and the accuracy of the cocktail grouping.

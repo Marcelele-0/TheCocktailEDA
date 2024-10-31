@@ -2,5 +2,5 @@
 
 functions:
   load_data: true                       # Set to true to load data in the general analysis
-  generate_descriptive_stats: true      # Set to true to analyze data shema in the general analysis
-  analyze_columns: true                 # Set to true to analyze columns
+  generate_descriptive_stats: false     # Set to true to analyze data shema in the general analysis
+  analyze_columns: false               # Set to true to analyze columns

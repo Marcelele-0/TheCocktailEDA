@@ -7,8 +7,17 @@ from omegaconf import DictConfig, OmegaConf
 logging.basicConfig(level=logging.INFO,
                     format='%(levelname)s - %(message)s')
 
+
 def load_data(file_path):
-    """Load JSON data from a specified file."""
+    """
+    Load JSON data from a specified file.
+
+    Parameters:
+    file_path (str): Path to the JSON file.
+
+    Returns:
+    pd.DataFrame: Loaded data as a DataFrame, or None if an error occurs.
+    """
     try:
         data = pd.read_json(file_path)
         logging.debug("Data loaded successfully.")
@@ -17,8 +26,17 @@ def load_data(file_path):
         logging.critical(f"Error loading data: {e}")
         return None
 
+
 def analyze_ingredients(data):
-    """Analyze ingredients and their properties."""
+    """
+    Analyze ingredients and their properties.
+
+    Parameters:
+    data (pd.DataFrame): DataFrame containing cocktail data.
+
+    Returns:
+    pd.DataFrame: DataFrame of ingredients, or None if no valid data found.
+    """
     logging.debug("Analyzing ingredients used in cocktails...")
 
     # Flatten the ingredients
@@ -39,11 +57,17 @@ def analyze_ingredients(data):
         logging.warning("No valid ingredient dictionaries found.")
         return None  # Return None if no valid data found
 
+
 def print_ingredients_without_alcohol(ingredients_df):
-    """Print ingredients that do not have assigned alcohol content (NaN)."""
+    """
+    Print ingredients that do not have assigned alcohol content (NaN).
+
+    Parameters:
+    ingredients_df (pd.DataFrame): DataFrame of ingredients.
+    """
     # Filter for ingredients where 'alcohol' is NaN
     missing_alcohol = ingredients_df[ingredients_df['alcohol'].isna()]
-    
+
     # Print unique values in the 'alcohol' column
     unique_alcohol_values = ingredients_df['alcohol'].unique()
     logging.debug(unique_alcohol_values)
@@ -59,27 +83,39 @@ def print_ingredients_without_alcohol(ingredients_df):
     else:
         logging.info("All ingredients have assigned alcohol content.")
 
+
 def print_unique_ingredients(ingredients_df):
-    """Print unique ingredients in the dataset."""
+    """
+    Print unique ingredients in the dataset.
+
+    Parameters:
+    ingredients_df (pd.DataFrame): DataFrame of ingredients.
+    """
     unique_ingredients = ingredients_df['name'].unique()
     unique_ingredients = [ingredient.replace("ñ", "n") for ingredient in unique_ingredients]
 
     logging.info(f"Unique ingredients in the dataset: {unique_ingredients}")
 
+
 def print_strong_alcohol_ingredients(ingredients_df):
-    """Print unique ingredients with a high alcohol content."""
+    """
+    Print unique ingredients with a high alcohol content.
+
+    Parameters:
+    ingredients_df (pd.DataFrame): DataFrame of ingredients.
+    """
     # Filter for ingredients where 'percentage' is high
     strong_alcohol = ingredients_df[ingredients_df['percentage'] > 30]
 
     if not strong_alcohol.empty:
         logging.info("Unique ingredients with high alcohol content:")
-        
+
         # Replace 'ñ' with 'n' using .loc to avoid SettingWithCopyWarning
         strong_alcohol.loc[:, 'name'] = strong_alcohol['name'].str.replace("ñ", "n")
 
         # Get unique combinations of ID and Name
         unique_ingredients = strong_alcohol[['id', 'name']].drop_duplicates()
-        
+
         for index, row in unique_ingredients.iterrows():
             logging.info(f"ID: {row['id']}, Name: {row['name']}")
     else:
@@ -87,28 +123,38 @@ def print_strong_alcohol_ingredients(ingredients_df):
 
 
 def print_alcohol_ingredients(ingredients_df):
-    """Print unique ingredients with a high alcohol content."""
-    # Filter for ingredients where 'percentage' is high
-    strong_alcohol = ingredients_df[ingredients_df['percentage'] > 0] 
+    """
+    Print unique ingredients with any alcohol content.
 
-    if not strong_alcohol.empty:
-        logging.info("Unique ingredients with high alcohol content:")
-        
+    Parameters:
+    ingredients_df (pd.DataFrame): DataFrame of ingredients.
+    """
+    # Filter for ingredients where 'percentage' is greater than 0
+    alcohol_ingredients = ingredients_df[ingredients_df['percentage'] > 0]
+
+    if not alcohol_ingredients.empty:
+        logging.info("Unique ingredients with alcohol content:")
+
         # Replace 'ñ' with 'n' using .loc to avoid SettingWithCopyWarning
-        strong_alcohol.loc[:, 'name'] = strong_alcohol['name'].str.replace("ñ", "n")
+        alcohol_ingredients.loc[:, 'name'] = alcohol_ingredients['name'].str.replace("ñ", "n")
 
         # Get unique combinations of ID and Name
-        unique_ingredients = strong_alcohol[['id', 'name']].drop_duplicates()
-        
+        unique_ingredients = alcohol_ingredients[['id', 'name']].drop_duplicates()
+
         for index, row in unique_ingredients.iterrows():
             logging.info(f"ID: {row['id']}, Name: {row['name']}")
     else:
-        logging.info("No ingredients with high alcohol content found.")
-
+        logging.info("No ingredients with alcohol content found.")
 
 
 @hydra.main(version_base=None, config_path="../../configs/analysis_configs", config_name="ingredient_analysis_config")
 def main(cfg: DictConfig):
+    """
+    Main function to execute the analysis based on the configuration.
+
+    Parameters:
+    cfg (DictConfig): Configuration object from Hydra.
+    """
     # Load global config (data_type)
     global_config = OmegaConf.load("configs/global_configs.yaml")
 
@@ -135,7 +181,7 @@ def main(cfg: DictConfig):
         else:
             ingredients_df = None
             logging.info("Ingredient analysis is disabled.")
-        
+
         # Print ingredients without alcohol if enabled in config
         if ingredients_df is not None and cfg.functions.print_ingredients_without_alcohol:
             print_ingredients_without_alcohol(ingredients_df)
@@ -154,14 +200,14 @@ def main(cfg: DictConfig):
         else:
             logging.info("Printing ingredients with high alcohol content is disabled or no valid ingredient data.")
 
-        
         # Print ingredients with any alcohol content if enabled in config
         if ingredients_df is not None and cfg.functions.print_strong_alcohol_ingredients:
             print_alcohol_ingredients(ingredients_df)
         else:
-            logging.info("Printing ingredients with high alcohol content is disabled or no valid ingredient data.")
+            logging.info("Printing ingredients with alcohol content is disabled or no valid ingredient data.")
     else:
         logging.error("No data to analyze.")
+
 
 if __name__ == "__main__":
     main()

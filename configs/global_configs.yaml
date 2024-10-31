@@ -1,5 +1,2 @@
-# configs/global_config.yaml
 
-
-# Analysis global config
-data_type: processed  # Może być raw albo processed
+data_type: processed  # Can be raw or processed

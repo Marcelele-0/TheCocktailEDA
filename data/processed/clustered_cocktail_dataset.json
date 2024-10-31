@@ -5,14 +5,11 @@
         "category":"Cocktail",
         "glass":"Highball glass",
         "tags":[
-            "Classic",
-            "Cold",
             "Hangover",
-            "Summer",
-            "Sour",
-            "Fruity",
             "Citrus",
-            "IBA"
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -59,11 +56,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -75,18 +69,15 @@
             0,
             0,
             0,
-            1,
-            0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
             1,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":27,
+        "agg_cluster":16
     },
     {
         "id":11001,
@@ -94,10 +85,8 @@
         "category":"Cocktail",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
             "USA",
-            "StrongFlavor",
-            "IBA"
+            "StrongFlavor"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -137,16 +126,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -157,6 +136,8 @@
             0,
             0,
             0,
+            0,
+            1,
             0,
             0,
             0,
@@ -164,7 +145,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":17,
+        "agg_cluster":19
     },
     {
         "id":11002,
@@ -172,13 +155,9 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
-            "DinnerParty",
             "USA",
             "Brunch",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -235,25 +214,17 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -261,7 +232,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":26,
+        "agg_cluster":28
     },
     {
         "id":11003,
@@ -269,12 +242,9 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
             "StrongFlavor",
-            "IBA"
+            "DinnerParty",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -306,15 +276,11 @@
         "one_hot_tags":[
             0,
             0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -324,16 +290,14 @@
             1,
             0,
             0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":12
     },
     {
         "id":11004,
@@ -341,12 +305,10 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Vegetarian",
-            "Strong",
-            "Mild",
             "USA",
+            "Vegetarian",
+            "Mild",
+            "Strong",
             "Fruity"
         ],
         "alcoholic":1,
@@ -387,24 +349,16 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
             0,
             1,
             1,
-            1,
-            0,
             0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -414,7 +368,9 @@
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":22,
+        "agg_cluster":6
     },
     {
         "id":11005,
@@ -422,11 +378,8 @@
         "category":"Cocktail",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
             "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -458,16 +411,11 @@
         "one_hot_tags":[
             0,
             0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -478,14 +426,13 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":20
     },
     {
         "id":11006,
@@ -493,13 +440,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Summer",
-            "Mild",
-            "Sour",
-            "Fruity",
             "Citrus",
-            "IBA"
+            "Mild",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -531,11 +475,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -547,18 +488,15 @@
             0,
             0,
             0,
-            1,
-            0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":27,
+        "agg_cluster":1
     },
     {
         "id":11007,
@@ -566,18 +504,13 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "Savory",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -616,34 +549,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
             1,
             0,
             0,
+            0,
+            0,
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":4,
+        "agg_cluster":0
     },
     {
         "id":11008,
@@ -651,14 +578,12 @@
         "category":"Cocktail",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Cold",
-            "Summer",
-            "StrongFlavor",
-            "DinnerParty",
             "USA",
             "Citrus",
-            "IBA"
+            "DinnerParty",
+            "Cold",
+            "StrongFlavor",
+            "Summer"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -714,22 +639,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             0,
@@ -738,10 +649,18 @@
             0,
             0,
             0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":21,
+        "agg_cluster":23
     },
     {
         "id":11009,
@@ -749,18 +668,13 @@
         "category":"Punch \/ Party Drink",
         "glass":"Copper Mug",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -792,18 +706,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
@@ -816,10 +718,16 @@
             0,
             0,
             0,
+            0,
+            1,
+            0,
+            1,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":4,
+        "agg_cluster":0
     },
     {
         "id":11010,
@@ -827,16 +735,12 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
+            "Vegan",
+            "Citrus",
             "Vegetarian",
             "Strong",
             "Summer",
-            "Vegan",
-            "Sour",
-            "Fruity",
-            "Citrus",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -868,34 +772,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
             0,
             0,
             0,
             0,
             1,
             0,
-            0,
-            0,
             1,
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":7,
+        "agg_cluster":16
     },
     {
         "id":11011,
@@ -903,19 +801,15 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
+            "Vegan",
+            "Citrus",
+            "Brunch",
             "Vegetarian",
+            "Breakfast",
             "Strong",
             "Summer",
-            "Vegan",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
-            "Breakfast",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -947,14 +841,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
@@ -963,18 +854,15 @@
             0,
             0,
             0,
-            1,
-            0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":8,
+        "agg_cluster":9
     },
     {
         "id":11012,
@@ -982,21 +870,16 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Alcoholic",
             "Hangover",
-            "Vegetarian",
-            "ContemporaryClassic",
-            "Strong",
-            "Summer",
-            "Vegan",
-            "USA",
-            "Nutty",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
+            "Brunch",
+            "USA",
+            "Vegetarian",
+            "Summer",
+            "Breakfast",
+            "Vegan",
             "Christmas",
-            "Breakfast"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1037,23 +920,15 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
             0,
             1,
             1,
+            1,
+            1,
+            0,
             0,
             0,
             1,
@@ -1063,7 +938,9 @@
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":6,
+        "agg_cluster":25
     },
     {
         "id":11013,
@@ -1071,13 +948,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
-            "Expensive",
             "StrongFlavor",
-            "IBA"
+            "Expensive",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1117,25 +990,17 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
             0,
             0,
             0,
             0,
             1,
             0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
             1,
             0,
             0,
@@ -1144,7 +1009,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":11,
+        "agg_cluster":12
     },
     {
         "id":11014,
@@ -1152,15 +1019,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
             "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
             "Christmas",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1198,14 +1059,6 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
@@ -1218,15 +1071,17 @@
             0,
             1,
             0,
+            0,
             1,
             0,
             0,
-            1,
-            1,
+            0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":28,
+        "agg_cluster":11
     },
     {
         "id":11016,
@@ -1236,11 +1091,7 @@
         "tags":[
             "Vegetarian",
             "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
-            "Christmas",
-            "IBA"
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1278,20 +1129,12 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             0,
             0,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -1299,14 +1142,16 @@
             1,
             0,
             0,
+            1,
             0,
             0,
-            1,
-            1,
+            0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":1,
+        "agg_cluster":8
     },
     {
         "id":11019,
@@ -1314,15 +1159,13 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Vegetarian",
-            "ContemporaryClassic",
-            "Summer",
-            "Mild",
-            "Fruity",
-            "Brunch",
             "Beach",
+            "Brunch",
+            "Vegetarian",
+            "Mild",
             "Breakfast",
-            "IBA"
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1355,10 +1198,7 @@
             0,
             0,
             0,
-            1,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -1370,18 +1210,15 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":2,
+        "agg_cluster":10
     },
     {
         "id":11020,
@@ -1389,19 +1226,16 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
+            "Beach",
+            "Brunch",
+            "USA",
+            "DinnerParty",
             "Vegetarian",
+            "Mild",
+            "Breakfast",
             "Strong",
             "Summer",
-            "DinnerParty",
-            "Mild",
-            "USA",
-            "Fruity",
-            "Brunch",
-            "Beach",
-            "Breakfast",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1433,15 +1267,12 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
-            1,
             0,
+            1,
+            1,
             0,
             1,
             0,
@@ -1449,18 +1280,15 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
             1,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":2,
+        "agg_cluster":10
     },
     {
         "id":11021,
@@ -1468,17 +1296,14 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
             "Hangover",
-            "Summer",
-            "DinnerParty",
             "USA",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
+            "Brunch",
+            "DinnerParty",
             "Breakfast",
-            "IBA"
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1526,34 +1351,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
             0,
             1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
             0,
             0,
             1,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":6,
+        "agg_cluster":18
     },
     {
         "id":11022,
@@ -1561,12 +1380,8 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
             "DinnerParty",
-            "Asia",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1599,15 +1414,10 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
             0,
             1,
-            0,
             0,
             0,
             0,
@@ -1618,14 +1428,13 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":20
     },
     {
         "id":11023,
@@ -1633,11 +1442,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
             "StrongFlavor",
-            "Christmas"
+            "Christmas",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1670,14 +1477,10 @@
             0,
             0,
             0,
-            1,
             0,
             0,
             0,
             1,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -1685,18 +1488,16 @@
             0,
             0,
             1,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":25,
+        "agg_cluster":4
     },
     {
         "id":11024,
@@ -1704,15 +1505,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
             "Vegetarian",
-            "Strong",
-            "Vegan",
             "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
-            "Christmas"
+            "Christmas",
+            "Vegan"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1743,35 +1539,29 @@
         ],
         "one_hot_tags":[
             0,
-            1,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
             0,
             0,
             1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             1,
             0,
             0,
             0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":1,
+        "agg_cluster":8
     },
     {
         "id":11025,
@@ -1779,15 +1569,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
             "Vegetarian",
-            "Strong",
-            "Vegan",
             "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
-            "Christmas"
+            "Christmas",
+            "Vegan"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1810,35 +1595,29 @@
         ],
         "one_hot_tags":[
             0,
-            1,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
             0,
             0,
             1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             1,
             0,
             0,
             0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":1,
+        "agg_cluster":8
     },
     {
         "id":11026,
@@ -1846,17 +1625,12 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Alcoholic",
-            "Vegetarian",
-            "ContemporaryClassic",
-            "Strong",
-            "Summer",
-            "Vegan",
-            "Nutty",
-            "Sour",
-            "Fruity",
             "Citrus",
-            "Christmas"
+            "Christmas",
+            "Vegetarian",
+            "Vegan",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1881,23 +1655,15 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            0,
-            0,
-            1,
-            0,
             0,
             0,
             0,
             0,
             0,
             1,
-            1,
+            0,
+            0,
+            0,
             0,
             0,
             1,
@@ -1907,7 +1673,9 @@
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":27,
+        "agg_cluster":1
     },
     {
         "id":11027,
@@ -1915,22 +1683,17 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
             "Hangover",
+            "Beach",
+            "USA",
+            "Citrus",
+            "Brunch",
             "Vegetarian",
-            "ContemporaryClassic",
-            "Strong",
             "Summer",
             "Vegan",
-            "USA",
-            "Nutty",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
-            "Beach",
-            "Christmas"
+            "Cold",
+            "Christmas",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1962,17 +1725,6 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
@@ -1980,15 +1732,20 @@
             1,
             1,
             1,
-            0,
             1,
             0,
+            0,
+            0,
+            1,
+            1,
             0,
             1,
             1,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":15,
+        "agg_cluster":22
     },
     {
         "id":11028,
@@ -1996,13 +1753,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
             "Vegetarian",
-            "Strong",
-            "Vegan",
-            "NewEra",
-            "Nutty",
-            "Christmas"
+            "Christmas",
+            "Vegan"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2025,14 +1778,9 @@
         ],
         "one_hot_tags":[
             0,
-            1,
             0,
             0,
             0,
-            0,
-            0,
-            1,
-            1,
             0,
             0,
             0,
@@ -2047,13 +1795,12 @@
             0,
             0,
             0,
-            0,
-            0,
-            1,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":18,
+        "agg_cluster":4
     },
     {
         "id":11029,
@@ -2061,18 +1808,13 @@
         "category":"Ordinary Drink",
         "glass":"Pousse cafe glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
             "Hangover",
-            "Vegetarian",
-            "Strong",
-            "Vegan",
-            "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
-            "Breakfast",
             "Brunch",
+            "Vegetarian",
+            "Mild",
+            "Breakfast",
+            "Vegan",
+            "Cold",
             "Christmas"
         ],
         "alcoholic":1,
@@ -2104,35 +1846,29 @@
         ],
         "one_hot_tags":[
             0,
-            1,
             0,
             0,
             0,
             0,
-            0,
-            1,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             0,
             0,
             1,
             1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
             1,
             0,
             1
-        ]
+        ],
+        "kmeans_cluster":13,
+        "agg_cluster":21
     },
     {
         "id":11034,
@@ -2140,13 +1876,8 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
-            "Fruity",
             "Christmas",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2178,16 +1909,11 @@
         "one_hot_tags":[
             0,
             0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -2197,15 +1923,14 @@
             0,
             1,
             0,
-            1,
             0,
             0,
             0,
             0,
-            0,
-            1,
             0
-        ]
+        ],
+        "kmeans_cluster":18,
+        "agg_cluster":4
     },
     {
         "id":11046,
@@ -2213,20 +1938,16 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
+            "Vegan",
+            "Citrus",
+            "USA",
+            "Brunch",
             "Vegetarian",
+            "Breakfast",
             "Strong",
             "Summer",
-            "Vegan",
-            "USA",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
-            "Breakfast",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2258,34 +1979,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            1,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
+            1,
+            1,
+            1,
             1,
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":8,
+        "agg_cluster":9
     },
     {
         "id":11050,
@@ -2293,18 +2008,14 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
-            "Christmas",
+            "Brunch",
+            "Summer",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "Christmas",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2360,14 +2071,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
@@ -2375,19 +2083,16 @@
             0,
             0,
             0,
-            0,
-            1,
             1,
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":24,
+        "agg_cluster":25
     },
     {
         "id":11052,
@@ -2395,16 +2100,11 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Expensive",
-            "Sour",
-            "Fruity",
             "Citrus",
-            "IBA"
+            "Expensive",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2444,34 +2144,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
             0,
             0,
             0,
             1,
             0,
-            0,
-            1,
-            0,
-            0,
-            1,
             1,
             0,
             0,
             0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":7,
+        "agg_cluster":26
     },
     {
         "id":11053,
@@ -2479,17 +2173,13 @@
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Cold",
-            "Vegetarian",
-            "Strong",
-            "DinnerParty",
-            "Expensive",
-            "Vegan",
-            "Breakfast",
             "Brunch",
-            "IBA"
+            "DinnerParty",
+            "Vegetarian",
+            "Expensive",
+            "Breakfast",
+            "Vegan",
+            "Cold"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2513,13 +2203,10 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
+            0,
             0,
             0,
             0,
@@ -2530,17 +2217,14 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0,
             1
-        ]
+        ],
+        "kmeans_cluster":12,
+        "agg_cluster":14
     },
     {
         "id":11054,
@@ -2548,19 +2232,15 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
+            "Citrus",
+            "Brunch",
             "DinnerParty",
             "Expensive",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2600,14 +2280,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
@@ -2616,18 +2293,15 @@
             1,
             0,
             0,
-            1,
-            0,
             0,
             1,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":8,
+        "agg_cluster":9
     },
     {
         "id":11055,
@@ -2635,11 +2309,8 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
             "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2671,16 +2342,11 @@
         "one_hot_tags":[
             0,
             0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -2691,14 +2357,13 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":20
     },
     {
         "id":11060,
@@ -2706,12 +2371,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
             "Vegetarian",
             "StrongFlavor",
-            "DinnerParty",
-            "IBA",
-            "Expensive"
+            "Expensive",
+            "DinnerParty"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2751,11 +2414,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -2765,20 +2425,17 @@
             0,
             0,
             1,
-            0,
             1,
             0,
             0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":5,
+        "agg_cluster":17
     },
     {
         "id":11064,
@@ -2786,15 +2443,12 @@
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
         "tags":[
-            "Classic",
             "Hangover",
-            "Summer",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2850,11 +2504,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -2869,15 +2520,12 @@
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":15,
+        "agg_cluster":0
     },
     {
         "id":11084,
@@ -2885,13 +2533,10 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Alcoholic",
             "Cold",
-            "ContemporaryClassic",
-            "Strong",
             "DinnerParty",
             "Christmas",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2938,15 +2583,10 @@
             0,
             0,
             0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -2957,14 +2597,13 @@
             1,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":20,
+        "agg_cluster":13
     },
     {
         "id":11102,
@@ -2972,14 +2611,10 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
+            "Brunch",
             "StrongFlavor",
             "Breakfast",
-            "Brunch",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3003,19 +2638,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
-            0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
             1,
-            0,
-            0,
             0,
             0,
             1,
@@ -3030,7 +2657,9 @@
             0,
             0,
             1
-        ]
+        ],
+        "kmeans_cluster":25,
+        "agg_cluster":12
     },
     {
         "id":11106,
@@ -3038,10 +2667,8 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "DinnerParty",
             "Vegetarian",
-            "IBA"
+            "DinnerParty"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3073,11 +2700,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             0,
@@ -3093,14 +2715,13 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":3
     },
     {
         "id":11112,
@@ -3108,19 +2729,13 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Alcoholic",
             "Hangover",
-            "ContemporaryClassic",
-            "Strong",
-            "Savory",
-            "Summer",
-            "Chilli",
-            "Sour",
-            "Fruity",
             "Brunch",
             "Citrus",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3177,33 +2792,27 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
             1,
             0,
             0,
-            1,
+            0,
+            0,
+            0,
             0,
             1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":8,
+        "agg_cluster":9
     },
     {
         "id":11113,
@@ -3211,20 +2820,13 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Alcoholic",
             "Hangover",
-            "ContemporaryClassic",
+            "Citrus",
+            "Brunch",
+            "Breakfast",
             "Strong",
             "Summer",
-            "Savory",
-            "DinnerParty",
-            "Chilli",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
-            "Breakfast",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3281,33 +2883,27 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
             1,
             0,
             0,
-            1,
-            0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
             0,
             0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":8,
+        "agg_cluster":9
     },
     {
         "id":11117,
@@ -3315,15 +2911,11 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
-            "DinnerParty",
-            "Mild",
-            "Fruity",
-            "Brunch",
             "Beach",
-            "IBA"
+            "Brunch",
+            "Mild",
+            "Strong",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3362,13 +2954,10 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             0,
             1,
@@ -3377,18 +2966,15 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
-            1,
-            0,
-            0,
             0,
             0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":2,
+        "agg_cluster":7
     },
     {
         "id":11118,
@@ -3396,18 +2982,13 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "Savory",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3447,34 +3028,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
             1,
             0,
             0,
+            0,
+            0,
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":4,
+        "agg_cluster":0
     },
     {
         "id":11119,
@@ -3482,21 +3057,16 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "StrongFlavor",
-            "Mild",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "StrongFlavor",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3544,34 +3114,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
             1,
             1,
             0,
-            0,
-            1,
             1,
             0,
             1,
+            0,
             1,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":10,
+        "agg_cluster":5
     },
     {
         "id":11120,
@@ -3579,12 +3143,8 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
             "Beach",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3640,16 +3200,11 @@
         "one_hot_tags":[
             0,
             0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -3659,15 +3214,14 @@
             0,
             0,
             1,
-            1,
-            0,
-            0,
             0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":26,
+        "agg_cluster":3
     },
     {
         "id":11121,
@@ -3675,12 +3229,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
             "Vegetarian",
             "StrongFlavor",
-            "DinnerParty",
-            "IBA",
-            "Expensive"
+            "Expensive",
+            "DinnerParty"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3720,11 +3272,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -3734,20 +3283,17 @@
             0,
             0,
             1,
-            0,
             1,
             0,
             0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":5,
+        "agg_cluster":17
     },
     {
         "id":11124,
@@ -3755,11 +3301,8 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
             "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3808,15 +3351,10 @@
             0,
             0,
             0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -3827,14 +3365,13 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":20
     },
     {
         "id":11128,
@@ -3842,13 +3379,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Summer",
-            "Sour",
-            "Fruity",
             "Citrus",
+            "Summer",
             "Christmas",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3888,16 +3422,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             0,
@@ -3905,17 +3429,21 @@
             0,
             0,
             1,
-            1,
+            0,
+            0,
+            0,
             0,
             0,
             1,
             0,
             0,
-            0,
+            1,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":27,
+        "agg_cluster":1
     },
     {
         "id":11129,
@@ -3923,13 +3451,11 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "Mild",
             "USA",
-            "Fruity",
-            "Christmas"
+            "Mild",
+            "Strong",
+            "Christmas",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3977,34 +3503,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
             0,
             1,
             1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
             0,
             0,
             0,
             1,
             0,
             0,
-            0,
+            1,
             0,
             0,
             0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":22,
+        "agg_cluster":6
     },
     {
         "id":11145,
@@ -4012,11 +3532,9 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
             "USA",
-            "Fruity",
             "Citrus",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4072,21 +3590,13 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
             0,
             0,
             1,
-            0,
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -4099,7 +3609,9 @@
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":0,
+        "agg_cluster":24
     },
     {
         "id":11146,
@@ -4107,16 +3619,13 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Classic",
             "Hangover",
-            "Summer",
             "USA",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
+            "Brunch",
             "Breakfast",
-            "IBA"
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4164,34 +3673,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
+            1,
+            1,
             1,
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":6,
+        "agg_cluster":18
     },
     {
         "id":11147,
@@ -4199,16 +3702,13 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Classic",
             "Hangover",
-            "Summer",
             "USA",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
+            "Brunch",
             "Breakfast",
-            "IBA"
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4256,34 +3756,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
+            1,
+            1,
             1,
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":6,
+        "agg_cluster":18
     },
     {
         "id":11149,
@@ -4291,21 +3785,16 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Mild",
-            "Sour",
-            "Fruity",
+            "Beach",
             "Brunch",
             "Citrus",
-            "Beach",
-            "Christmas",
+            "Mild",
+            "Summer",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "Christmas",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4353,14 +3842,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
@@ -4368,19 +3854,16 @@
             1,
             0,
             0,
-            0,
-            1,
-            1,
-            1,
             1,
             1,
             0,
-            0,
-            0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":10,
+        "agg_cluster":5
     },
     {
         "id":11157,
@@ -4388,15 +3871,13 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Cold",
             "Hangover",
-            "Vegetarian",
             "USA",
-            "Fruity",
             "Citrus",
+            "Vegetarian",
+            "Cold",
             "Christmas",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4452,34 +3933,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            1,
             0,
             0,
             0,
             0,
             0,
             1,
+            1,
+            0,
+            1,
             0,
             0,
             0,
+            1,
             0,
             0,
             0,
             1,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":0,
+        "agg_cluster":24
     },
     {
         "id":11164,
@@ -4488,14 +3963,10 @@
         "glass":"Whiskey sour glass",
         "tags":[
             "Hangover",
-            "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
-            "Breakfast",
             "Brunch",
-            "Christmas",
-            "IBA"
+            "Mild",
+            "Breakfast",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4542,35 +4013,29 @@
         ],
         "one_hot_tags":[
             0,
-            1,
             0,
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             0,
             0,
             1,
             1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
             0,
             0,
             1
-        ]
+        ],
+        "kmeans_cluster":13,
+        "agg_cluster":21
     },
     {
         "id":11170,
@@ -4578,12 +4043,10 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Classic",
             "Vegetarian",
             "Mild",
-            "Fruity",
             "Christmas",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4623,11 +4086,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -4638,19 +4098,16 @@
             1,
             0,
             0,
-            0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":1,
+        "agg_cluster":8
     },
     {
         "id":11202,
@@ -4658,14 +4115,12 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Vegetarian",
-            "ContemporaryClassic",
-            "Summer",
-            "Vegan",
-            "Sour",
-            "Fruity",
+            "Beach",
             "Citrus",
-            "Beach"
+            "Vegetarian",
+            "Vegan",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4698,9 +4153,6 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -4716,15 +4168,12 @@
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":27,
+        "agg_cluster":1
     },
     {
         "id":11205,
@@ -4732,19 +4181,16 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
-            "Vegetarian",
-            "ContemporaryClassic",
-            "Strong",
-            "Summer",
-            "Mild",
+            "Beach",
             "USA",
-            "Sour",
-            "Fruity",
             "Brunch",
             "Citrus",
-            "Beach"
+            "Vegetarian",
+            "Mild",
+            "Strong",
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4800,14 +4246,11 @@
             0,
             0,
             0,
-            1,
             0,
             0,
             0,
             1,
             1,
-            1,
-            0,
             1,
             1,
             0,
@@ -4818,15 +4261,12 @@
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            0,
-            0,
             1,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":19,
+        "agg_cluster":7
     },
     {
         "id":11222,
@@ -4835,14 +4275,11 @@
         "glass":"Cocktail glass",
         "tags":[
             "Hangover",
-            "ContemporaryClassic",
-            "Summer",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4883,10 +4320,7 @@
             0,
             0,
             0,
-            1,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -4901,15 +4335,12 @@
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":15,
+        "agg_cluster":0
     },
     {
         "id":11224,
@@ -4917,19 +4348,14 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "Fruity",
-            "DinnerParty",
-            "NewEra",
-            "Sour",
-            "Breakfast",
             "Brunch",
             "Citrus",
+            "Breakfast",
+            "Summer",
+            "Strong",
             "Christmas",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4976,15 +4402,12 @@
         ],
         "one_hot_tags":[
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
             0,
             1,
             1,
@@ -4992,19 +4415,16 @@
             0,
             0,
             0,
-            0,
-            1,
-            1,
-            0,
-            1,
             1,
             0,
             0,
-            0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":24,
+        "agg_cluster":25
     },
     {
         "id":11227,
@@ -5012,17 +4432,13 @@
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Cold",
-            "Vegetarian",
-            "Strong",
-            "DinnerParty",
-            "Expensive",
-            "Vegan",
-            "Breakfast",
             "Brunch",
-            "IBA"
+            "DinnerParty",
+            "Vegetarian",
+            "Expensive",
+            "Breakfast",
+            "Vegan",
+            "Cold"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5070,13 +4486,10 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
+            0,
             0,
             0,
             0,
@@ -5087,17 +4500,14 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0,
             1
-        ]
+        ],
+        "kmeans_cluster":12,
+        "agg_cluster":14
     },
     {
         "id":11239,
@@ -5105,10 +4515,7 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Dairy",
-            "Mild",
-            "ContemporaryClassic",
-            "IBA"
+            "Mild"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5141,19 +4548,6 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
             0,
             0,
             0,
@@ -5163,11 +4557,18 @@
             0,
             0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":1,
+        "agg_cluster":2
     },
     {
         "id":11242,
@@ -5175,13 +4576,11 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Cold",
-            "ContemporaryClassic",
             "DinnerParty",
             "Mild",
-            "IBA",
-            "Christmas",
-            "Expensive"
+            "Expensive",
+            "Cold",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5237,10 +4636,7 @@
             0,
             0,
             0,
-            1,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -5251,19 +4647,16 @@
             1,
             1,
             0,
-            0,
-            0,
             1,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":23,
+        "agg_cluster":27
     },
     {
         "id":11243,
@@ -5271,12 +4664,8 @@
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
         "tags":[
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
             "StrongFlavor",
-            "NewEra",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5307,23 +4696,15 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             0,
             1,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -5335,7 +4716,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":25,
+        "agg_cluster":12
     },
     {
         "id":11251,
@@ -5343,17 +4726,14 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
             "Hangover",
+            "Citrus",
+            "Brunch",
             "Vegetarian",
             "Summer",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
-            "Christmas",
             "Breakfast",
-            "IBA"
+            "Christmas",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5385,11 +4765,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -5400,19 +4777,16 @@
             0,
             0,
             0,
-            0,
-            1,
             1,
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":24,
+        "agg_cluster":25
     },
     {
         "id":11255,
@@ -5420,13 +4794,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Vegetarian",
-            "Strong",
             "DinnerParty",
-            "Expensive",
-            "IBA"
+            "Expensive"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5458,20 +4828,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -5481,11 +4842,14 @@
             0,
             0,
             0,
+            1,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":5,
+        "agg_cluster":17
     },
     {
         "id":11288,
@@ -5493,14 +4857,11 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "ContemporaryClassic",
-            "Summer",
             "USA",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
-            "IBA"
+            "Brunch",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5532,14 +4893,11 @@
             0,
             0,
             0,
-            1,
+            0,
+            0,
             0,
             0,
             1,
-            0,
-            0,
-            1,
-            0,
             1,
             1,
             0,
@@ -5547,18 +4905,15 @@
             0,
             0,
             0,
-            1,
-            0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":16,
+        "agg_cluster":1
     },
     {
         "id":11320,
@@ -5566,16 +4921,11 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Sour",
-            "Fruity",
             "Citrus",
-            "IBA"
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5607,14 +4957,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             0,
@@ -5623,18 +4970,15 @@
             0,
             0,
             0,
-            1,
             0,
             0,
             1,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":4,
+        "agg_cluster":16
     },
     {
         "id":11324,
@@ -5642,13 +4986,11 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Vegetarian",
-            "StrongFlavor",
             "DinnerParty",
+            "Vegetarian",
+            "Expensive",
             "Vegan",
-            "IBA",
-            "Expensive"
+            "StrongFlavor"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5680,11 +5022,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -5694,20 +5033,17 @@
             0,
             0,
             1,
-            0,
             1,
             0,
             0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":5,
+        "agg_cluster":17
     },
     {
         "id":11326,
@@ -5715,11 +5051,7 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5759,26 +5091,18 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -5786,7 +5110,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":26,
+        "agg_cluster":3
     },
     {
         "id":11338,
@@ -5794,13 +5120,10 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Alcoholic",
             "Cold",
-            "ContemporaryClassic",
-            "Strong",
             "DinnerParty",
             "Christmas",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5847,15 +5170,10 @@
             0,
             0,
             0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -5866,14 +5184,13 @@
             1,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":20,
+        "agg_cluster":13
     },
     {
         "id":11339,
@@ -5881,20 +5198,16 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Mild",
-            "Sour",
-            "Fruity",
+            "Beach",
             "Brunch",
             "Citrus",
-            "Beach",
+            "DinnerParty",
+            "Mild",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -5950,19 +5263,7 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            1,
             0,
             0,
             0,
@@ -5971,13 +5272,19 @@
             1,
             1,
             1,
+            1,
             0,
             0,
             0,
+            1,
+            1,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":10,
+        "agg_cluster":5
     },
     {
         "id":11368,
@@ -5985,11 +5292,7 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6013,26 +5316,18 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -6040,7 +5335,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":26,
+        "agg_cluster":3
     },
     {
         "id":11369,
@@ -6048,13 +5345,11 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Vegetarian",
-            "StrongFlavor",
             "DinnerParty",
+            "Vegetarian",
             "Mild",
-            "IBA",
-            "Expensive"
+            "Expensive",
+            "StrongFlavor"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6094,11 +5389,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -6108,20 +5400,17 @@
             0,
             1,
             1,
-            0,
             1,
             0,
             0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":5,
+        "agg_cluster":17
     },
     {
         "id":11375,
@@ -6129,15 +5418,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
             "Vegetarian",
-            "Strong",
-            "Vegan",
             "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
-            "Christmas"
+            "Christmas",
+            "Vegan"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6168,35 +5452,29 @@
         ],
         "one_hot_tags":[
             0,
-            1,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
             0,
             0,
             1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             1,
             0,
             0,
             0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":1,
+        "agg_cluster":8
     },
     {
         "id":11382,
@@ -6204,16 +5482,13 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
+            "Citrus",
+            "USA",
             "Vegetarian",
+            "Expensive",
             "Strong",
             "Summer",
-            "USA",
-            "Sour",
-            "Fruity",
-            "Citrus",
-            "Expensive"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6253,7 +5528,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
@@ -6262,25 +5536,20 @@
             1,
             1,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             1,
             0,
             0,
             0,
+            0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":7,
+        "agg_cluster":26
     },
     {
         "id":11387,
@@ -6288,16 +5557,13 @@
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
         "tags":[
-            "Classic",
-            "Cold",
             "Hangover",
-            "Summer",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "Citrus",
+            "Brunch",
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6353,11 +5619,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -6372,15 +5635,12 @@
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            0,
-            0,
             1,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":15,
+        "agg_cluster":0
     },
     {
         "id":11390,
@@ -6388,15 +5648,12 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
             "Hangover",
-            "Summer",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6436,11 +5693,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -6455,15 +5709,12 @@
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":15,
+        "agg_cluster":0
     },
     {
         "id":11391,
@@ -6472,14 +5723,11 @@
         "glass":"Cocktail glass",
         "tags":[
             "Hangover",
-            "ContemporaryClassic",
-            "Summer",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6520,10 +5768,7 @@
             0,
             0,
             0,
-            1,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -6538,15 +5783,12 @@
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":15,
+        "agg_cluster":0
     },
     {
         "id":11396,
@@ -6554,15 +5796,12 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Cold",
             "Hangover",
-            "Strong",
-            "DinnerParty",
             "USA",
-            "Christmas",
-            "IBA"
+            "DinnerParty",
+            "Strong",
+            "Cold",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6602,34 +5841,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            1,
             0,
             0,
             0,
             1,
+            1,
             0,
             0,
+            1,
             0,
             0,
             0,
             1,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":20,
+        "agg_cluster":13
     },
     {
         "id":11403,
@@ -6637,18 +5870,13 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Cold",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
-            "IBA"
+            "Brunch",
+            "Strong",
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6680,14 +5908,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
@@ -6696,18 +5921,15 @@
             0,
             0,
             0,
-            1,
             0,
             0,
             1,
-            1,
-            0,
-            0,
-            0,
             1,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":4,
+        "agg_cluster":16
     },
     {
         "id":11407,
@@ -6715,13 +5937,9 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
-            "Strong",
-            "DinnerParty",
             "Mild",
-            "NewEra",
-            "IBA"
+            "Cold",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6764,14 +5982,6 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
@@ -6782,9 +5992,9 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
+            0,
+            0,
             0,
             0,
             0,
@@ -6792,7 +6002,9 @@
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":9,
+        "agg_cluster":2
     },
     {
         "id":11408,
@@ -6800,20 +6012,15 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Mild",
-            "Sour",
-            "Fruity",
+            "Beach",
             "Brunch",
             "Citrus",
-            "Beach",
+            "Mild",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6869,14 +6076,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
@@ -6888,15 +6092,12 @@
             1,
             0,
             1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":10,
+        "agg_cluster":5
     },
     {
         "id":11410,
@@ -6904,13 +6105,9 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
-            "ContemporaryClassic",
-            "Strong",
-            "DinnerParty",
             "Mild",
-            "IBA"
+            "Cold",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -6950,14 +6147,6 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -6966,9 +6155,9 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
+            0,
+            0,
             0,
             0,
             0,
@@ -6976,7 +6165,9 @@
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":9,
+        "agg_cluster":2
     },
     {
         "id":11415,
@@ -6984,13 +6175,9 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
-            "Mild",
             "Citrus",
-            "IBA"
+            "Mild",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7038,26 +6225,18 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
             0,
             0,
             0,
             0,
             1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
             0,
             0,
             0,
@@ -7065,7 +6244,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":28,
+        "agg_cluster":2
     },
     {
         "id":11416,
@@ -7073,15 +6254,11 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
-            "ContemporaryClassic",
-            "Strong",
-            "Summer",
-            "DinnerParty",
-            "Fruity",
             "Citrus",
-            "IBA"
+            "Strong",
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7138,16 +6315,12 @@
             0,
             0,
             0,
-            1,
             0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             1,
             0,
+            1,
             0,
             0,
             0,
@@ -7157,14 +6330,12 @@
             0,
             0,
             1,
-            1,
-            0,
-            0,
-            0,
             1,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":7,
+        "agg_cluster":16
     },
     {
         "id":11417,
@@ -7172,18 +6343,13 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
+            "Brunch",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7231,14 +6397,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
@@ -7247,18 +6410,15 @@
             0,
             0,
             0,
-            1,
             0,
             0,
             1,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":8,
+        "agg_cluster":9
     },
     {
         "id":11418,
@@ -7266,17 +6426,13 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Alcoholic",
+            "Beach",
+            "Brunch",
+            "Mild",
+            "Strong",
             "Cold",
             "Summer",
-            "Strong",
-            "DinnerParty",
-            "Mild",
-            "NewEra",
-            "Fruity",
-            "Brunch",
-            "Beach",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7330,15 +6486,12 @@
         ],
         "one_hot_tags":[
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
             0,
             0,
             1,
@@ -7347,18 +6500,15 @@
             0,
             0,
             0,
-            0,
-            0,
-            1,
-            1,
             1,
             0,
-            0,
-            0,
+            1,
             1,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":2,
+        "agg_cluster":7
     },
     {
         "id":11419,
@@ -7366,20 +6516,15 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Cold",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "USA",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "USA",
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7427,15 +6572,12 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
-            1,
             0,
+            1,
+            1,
             1,
             1,
             1,
@@ -7446,15 +6588,12 @@
             1,
             0,
             1,
-            1,
-            1,
-            0,
-            0,
-            0,
             1,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":4,
+        "agg_cluster":22
     },
     {
         "id":11420,
@@ -7462,12 +6601,8 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
             "Mild",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7507,14 +6642,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
             0,
             0,
             0,
@@ -7524,9 +6651,9 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
+            0,
+            0,
             0,
             0,
             0,
@@ -7534,7 +6661,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":28,
+        "agg_cluster":2
     },
     {
         "id":11422,
@@ -7542,15 +6671,10 @@
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
         "tags":[
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
-            "Mild",
-            "NewEra",
-            "Nutty",
             "Brunch",
+            "Mild",
             "Christmas",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7581,15 +6705,12 @@
         ],
         "one_hot_tags":[
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
             0,
             0,
             1,
@@ -7597,19 +6718,16 @@
             1,
             0,
             0,
-            0,
-            0,
-            1,
-            0,
             1,
             0,
             0,
             0,
-            1,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":28,
+        "agg_cluster":11
     },
     {
         "id":11423,
@@ -7617,17 +6735,12 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Alcoholic",
-            "Vegetarian",
-            "ContemporaryClassic",
-            "Strong",
-            "StrongFlavor",
             "DinnerParty",
+            "Vegetarian",
+            "Expensive",
             "Vegan",
-            "IBA",
-            "Nutty",
-            "Christmas",
-            "Expensive"
+            "StrongFlavor",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7652,12 +6765,9 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
+            0,
             0,
             0,
             0,
@@ -7665,20 +6775,17 @@
             0,
             0,
             1,
-            0,
+            1,
             1,
             0,
             1,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":5,
+        "agg_cluster":17
     },
     {
         "id":11424,
@@ -7686,13 +6793,8 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
-            "DinnerParty",
-            "Nutty",
             "Christmas",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7717,15 +6819,10 @@
             0,
             0,
             0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -7735,15 +6832,14 @@
             0,
             1,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":18,
+        "agg_cluster":4
     },
     {
         "id":11433,
@@ -7751,17 +6847,13 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
+            "Beach",
+            "Brunch",
+            "Mild",
+            "Breakfast",
             "Strong",
             "Summer",
-            "DinnerParty",
-            "Mild",
-            "Fruity",
-            "Brunch",
-            "Beach",
-            "Breakfast",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7810,13 +6902,10 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             0,
             1,
@@ -7825,18 +6914,15 @@
             0,
             0,
             0,
-            0,
-            0,
-            1,
-            1,
             1,
             0,
-            0,
-            0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":2,
+        "agg_cluster":10
     },
     {
         "id":11462,
@@ -7844,20 +6930,16 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "Alcoholic",
             "Hangover",
-            "ContemporaryClassic",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
+            "Expensive",
+            "Breakfast",
             "Strong",
             "Summer",
-            "DinnerParty",
-            "Expensive",
-            "Mild",
-            "Fruity",
-            "Brunch",
-            "Citrus",
-            "Beach",
-            "Breakfast",
-            "IBA"
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7890,13 +6972,10 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
@@ -7905,18 +6984,15 @@
             1,
             0,
             0,
-            0,
-            0,
-            1,
-            1,
             1,
             0,
-            0,
-            0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":10,
+        "agg_cluster":5
     },
     {
         "id":11470,
@@ -7924,17 +7000,14 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
             "Hangover",
-            "Summer",
-            "Mild",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
             "Breakfast",
-            "IBA"
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -7966,11 +7039,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -7985,15 +7055,12 @@
             1,
             0,
             1,
-            0,
-            1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":10,
+        "agg_cluster":5
     },
     {
         "id":11472,
@@ -8001,17 +7068,13 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Mild",
-            "Fruity",
-            "Brunch",
             "Beach",
+            "Brunch",
+            "Mild",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8043,14 +7106,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             0,
             1,
@@ -8059,18 +7119,15 @@
             0,
             0,
             0,
-            0,
-            0,
-            1,
-            1,
             1,
             0,
-            0,
-            0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":2,
+        "agg_cluster":10
     },
     {
         "id":11476,
@@ -8078,12 +7135,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
             "Vegetarian",
             "StrongFlavor",
-            "DinnerParty",
-            "IBA",
-            "Expensive"
+            "Expensive",
+            "DinnerParty"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8123,11 +7178,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -8137,20 +7189,17 @@
             0,
             0,
             1,
-            0,
             1,
             0,
             0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":5,
+        "agg_cluster":17
     },
     {
         "id":11524,
@@ -8158,13 +7207,10 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
-            "ContemporaryClassic",
-            "Strong",
-            "Mild",
             "USA",
-            "IBA"
+            "Cold",
+            "Mild",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8212,23 +7258,15 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            1,
-            0,
             0,
             0,
             0,
             1,
+            1,
             0,
             0,
             0,
-            0,
-            0,
+            1,
             0,
             0,
             0,
@@ -8238,7 +7276,9 @@
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":9,
+        "agg_cluster":2
     },
     {
         "id":11528,
@@ -8247,15 +7287,14 @@
         "glass":"Collins glass",
         "tags":[
             "Hangover",
-            "Summer",
-            "Mild",
-            "NewEra",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
+            "Expensive",
             "Breakfast",
-            "Expensive"
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8310,9 +7349,6 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -8327,18 +7363,15 @@
             1,
             0,
             0,
-            0,
-            0,
             1,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":10,
+        "agg_cluster":5
     },
     {
         "id":11542,
@@ -8346,19 +7379,16 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Vegetarian",
-            "Strong",
-            "Summer",
             "Vegan",
-            "Mild",
-            "Sour",
-            "Fruity",
+            "Beach",
             "Brunch",
             "Citrus",
-            "Beach",
-            "Christmas"
+            "Vegetarian",
+            "Mild",
+            "Summer",
+            "Strong",
+            "Christmas",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8390,14 +7420,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
             0,
             1,
-            1,
-            0,
             0,
             1,
             1,
@@ -8405,19 +7432,16 @@
             1,
             0,
             0,
-            0,
-            1,
             1,
             1,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":2,
+        "agg_cluster":7
     },
     {
         "id":11558,
@@ -8425,15 +7449,13 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
-            "ContemporaryClassic",
-            "Strong",
+            "USA",
             "DinnerParty",
             "Mild",
-            "USA",
-            "Christmas",
-            "Expensive"
+            "Expensive",
+            "Strong",
+            "Cold",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8489,14 +7511,6 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
             0,
             0,
             0,
@@ -8506,16 +7520,18 @@
             0,
             0,
             1,
+            1,
             0,
             1,
             0,
-            0,
-            0,
+            1,
             0,
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":23,
+        "agg_cluster":27
     },
     {
         "id":11566,
@@ -8523,13 +7539,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
-            "DinnerParty",
-            "Expensive",
             "StrongFlavor",
-            "IBA"
+            "Expensive",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8562,24 +7574,16 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             0,
             0,
             0,
             0,
             1,
-            0,
-            1,
-            0,
-            0,
-            0,
             1,
             0,
             0,
@@ -8588,7 +7592,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":11,
+        "agg_cluster":12
     },
     {
         "id":11580,
@@ -8596,17 +7602,14 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "Classic",
-            "Cold",
             "Hangover",
-            "Summer",
             "USA",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
+            "Brunch",
             "Breakfast",
-            "IBA"
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8662,34 +7665,28 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
+            1,
+            1,
             1,
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            1,
             1,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":6,
+        "agg_cluster":18
     },
     {
         "id":11600,
@@ -8697,18 +7694,13 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Sour",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
-            "IBA"
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8740,18 +7732,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
@@ -8764,10 +7744,16 @@
             0,
             0,
             0,
+            0,
+            1,
+            0,
+            1,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":4,
+        "agg_cluster":0
     },
     {
         "id":11602,
@@ -8775,8 +7761,6 @@
         "category":"Ordinary Drink",
         "glass":"Brandy snifter",
         "tags":[
-            "Classic",
-            "IBA",
             "USA",
             "Expensive"
         ],
@@ -8802,14 +7786,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
             0,
             0,
             0,
@@ -8820,7 +7796,7 @@
             0,
             0,
             0,
-            0,
+            1,
             0,
             0,
             0,
@@ -8829,7 +7805,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":17,
+        "agg_cluster":19
     },
     {
         "id":11604,
@@ -8837,8 +7815,6 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "IBA",
             "USA",
             "Expensive"
         ],
@@ -8872,14 +7848,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
             0,
             0,
             0,
@@ -8890,7 +7858,7 @@
             0,
             0,
             0,
-            0,
+            1,
             0,
             0,
             0,
@@ -8899,7 +7867,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":17,
+        "agg_cluster":19
     },
     {
         "id":11634,
@@ -8907,15 +7877,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
-            "Strong",
-            "DinnerParty",
             "Mild",
-            "Dairy",
-            "NewEra",
+            "Cold",
             "Christmas",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -8969,14 +7934,6 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
@@ -8989,15 +7946,17 @@
             0,
             1,
             0,
+            0,
             1,
             0,
             0,
-            1,
             0,
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":9,
+        "agg_cluster":11
     },
     {
         "id":11658,
@@ -9005,13 +7964,11 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Vegetarian",
-            "ContemporaryClassic",
-            "StrongFlavor",
             "DinnerParty",
+            "Vegetarian",
+            "Expensive",
             "Vegan",
-            "IBA",
-            "Expensive"
+            "StrongFlavor"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9052,10 +8009,7 @@
             0,
             0,
             0,
-            1,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -9065,20 +8019,17 @@
             0,
             0,
             1,
-            0,
             1,
             0,
             0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":5,
+        "agg_cluster":17
     },
     {
         "id":11662,
@@ -9086,11 +8037,7 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
-            "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9123,25 +8070,17 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -9149,7 +8088,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":26,
+        "agg_cluster":3
     },
     {
         "id":11664,
@@ -9157,11 +8098,8 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
             "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9185,16 +8123,11 @@
         "one_hot_tags":[
             0,
             0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -9205,14 +8138,13 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":20
     },
     {
         "id":11666,
@@ -9220,13 +8152,10 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "Alcoholic",
-            "Cold",
-            "Strong",
-            "DinnerParty",
             "Mild",
-            "NewEra",
-            "IBA"
+            "Cold",
+            "DinnerParty",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9275,14 +8204,6 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
@@ -9293,17 +8214,19 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
             0,
             0,
             0,
+            0,
+            1,
             0,
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":9,
+        "agg_cluster":2
     },
     {
         "id":11670,
@@ -9311,8 +8234,6 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Vegetarian",
             "Strong",
             "StrongFlavor",
@@ -9340,17 +8261,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -9360,6 +8270,9 @@
             0,
             0,
             0,
+            0,
+            0,
+            1,
             0,
             0,
             0,
@@ -9367,7 +8280,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":25,
+        "agg_cluster":12
     },
     {
         "id":11690,
@@ -9375,8 +8290,6 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "NewEra",
-            "IBA",
             "Mild",
             "Fruity"
         ],
@@ -9425,12 +8338,9 @@
         ],
         "one_hot_tags":[
             0,
-            1,
             0,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -9439,11 +8349,6 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -9453,7 +8358,9 @@
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":1,
+        "agg_cluster":8
     },
     {
         "id":11720,
@@ -9461,12 +8368,9 @@
         "category":"Cocktail",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
             "DinnerParty",
             "Fruity",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9514,16 +8418,11 @@
         "one_hot_tags":[
             0,
             0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -9534,14 +8433,13 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":20
     },
     {
         "id":11728,
@@ -9549,11 +8447,8 @@
         "category":"Cocktail",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
             "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9585,16 +8480,11 @@
         "one_hot_tags":[
             0,
             0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -9605,14 +8495,13 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":20
     },
     {
         "id":11766,
@@ -9620,13 +8509,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
-            "Mild",
             "USA",
             "Brunch",
-            "IBA"
+            "Mild",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9659,23 +8545,15 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
-            1,
             0,
+            1,
+            1,
             0,
             1,
             0,
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -9685,7 +8563,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":28,
+        "agg_cluster":28
     },
     {
         "id":11786,
@@ -9693,12 +8573,10 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "Cold",
-            "ContemporaryClassic",
-            "Mild",
             "USA",
-            "Christmas",
-            "IBA"
+            "Cold",
+            "Mild",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9754,13 +8632,6 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
             0,
             0,
             0,
@@ -9769,18 +8640,19 @@
             0,
             0,
             0,
-            0,
             1,
             0,
             0,
-            0,
+            1,
             0,
             0,
             0,
             1,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":1,
+        "agg_cluster":8
     },
     {
         "id":11798,
@@ -9788,13 +8660,10 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Summer",
-            "ContemporaryClassic",
-            "Sour",
-            "Fruity",
-            "Brunch",
             "Citrus",
-            "IBA"
+            "Brunch",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9827,33 +8696,27 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
             0,
             0,
             0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
             1,
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            1,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":16,
+        "agg_cluster":1
     },
     {
         "id":11844,
@@ -9861,13 +8724,11 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Vegetarian",
-            "Strong",
             "USA",
-            "Fruity",
-            "Expensive"
+            "Vegetarian",
+            "Expensive",
+            "Strong",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9913,25 +8774,17 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
             0,
             1,
             1,
-            1,
-            0,
             0,
             0,
             0,
             0,
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -9940,7 +8793,9 @@
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":17,
+        "agg_cluster":6
     },
     {
         "id":11870,
@@ -9948,19 +8803,15 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
             "Hangover",
-            "Summer",
-            "Strong",
-            "DinnerParty",
-            "Mild",
-            "Fruity",
-            "Brunch",
-            "Citrus",
             "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
             "Breakfast",
-            "IBA"
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -9999,14 +8850,11 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             1,
             1,
@@ -10015,18 +8863,15 @@
             0,
             0,
             0,
-            0,
-            0,
-            1,
-            1,
             1,
             0,
-            0,
-            0,
+            1,
             0,
             1,
             1
-        ]
+        ],
+        "kmeans_cluster":10,
+        "agg_cluster":5
     },
     {
         "id":11872,
@@ -10034,15 +8879,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
             "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
             "Christmas",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10089,14 +8928,6 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
             0,
             0,
             0,
@@ -10109,15 +8940,17 @@
             0,
             1,
             0,
+            0,
             1,
             0,
             0,
-            1,
-            1,
+            0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":28,
+        "agg_cluster":11
     },
     {
         "id":11936,
@@ -10125,11 +8958,7 @@
         "category":"Ordinary Drink",
         "glass":"White wine glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10153,26 +8982,18 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -10180,7 +9001,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":26,
+        "agg_cluster":3
     },
     {
         "id":11938,
@@ -10188,16 +9011,11 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "ContemporaryClassic",
-            "Strong",
-            "DinnerParty",
-            "Mild",
-            "Dairy",
-            "Brunch",
             "Beach",
-            "Christmas",
-            "IBA"
+            "Brunch",
+            "Mild",
+            "Strong",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10238,13 +9056,10 @@
             0,
             0,
             0,
-            1,
             0,
             0,
-            1,
-            1,
-            1,
             0,
+            1,
             0,
             0,
             1,
@@ -10252,19 +9067,16 @@
             1,
             0,
             0,
-            0,
-            0,
-            1,
             1,
             1,
             0,
-            0,
-            1,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":14,
+        "agg_cluster":11
     },
     {
         "id":11959,
@@ -10272,11 +9084,7 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
-            "IBA"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10300,26 +9108,18 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -10327,7 +9127,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":26,
+        "agg_cluster":3
     },
     {
         "id":11961,
@@ -10335,12 +9137,11 @@
         "category":"Ordinary Drink",
         "glass":"Pousse cafe glass",
         "tags":[
-            "Classic",
-            "Vegetarian",
-            "Vegan",
-            "Mild",
+            "Beach",
             "Brunch",
-            "Beach"
+            "Vegetarian",
+            "Mild",
+            "Vegan"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10364,9 +9165,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -10380,18 +9178,15 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":14,
+        "agg_cluster":15
     },
     {
         "id":11963,
@@ -10399,12 +9194,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
             "Vegetarian",
             "DinnerParty",
-            "IBA",
-            "Christmas",
-            "Expensive"
+            "Expensive",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10428,11 +9221,8 @@
         "one_hot_tags":[
             0,
             0,
-            1,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -10443,19 +9233,16 @@
             0,
             1,
             0,
-            0,
-            0,
             1,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":5,
+        "agg_cluster":17
     },
     {
         "id":11965,
@@ -10464,15 +9251,12 @@
         "glass":"Whiskey sour glass",
         "tags":[
             "Hangover",
+            "Brunch",
             "DinnerParty",
             "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
+            "Expensive",
             "Breakfast",
-            "Brunch",
-            "Christmas",
-            "Expensive"
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10518,9 +9302,6 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -10534,19 +9315,16 @@
             1,
             1,
             0,
-            0,
-            0,
             1,
             0,
             1,
             0,
-            0,
-            1,
-            1,
             0,
             0,
             1
-        ]
+        ],
+        "kmeans_cluster":13,
+        "agg_cluster":21
     },
     {
         "id":11983,
@@ -10554,9 +9332,7 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Christmas",
-            "ContemporaryClassic",
-            "IBA"
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10597,11 +9373,6 @@
             0,
             0,
             0,
-            1,
-            0,
-            0,
-            1,
-            0,
             0,
             0,
             0,
@@ -10614,16 +9385,15 @@
             0,
             0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":18,
+        "agg_cluster":4
     },
     {
         "id":11985,
@@ -10631,12 +9401,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Summer",
-            "Sour",
-            "Fruity",
             "Citrus",
-            "IBA"
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10668,16 +9435,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
             0,
             0,
             0,
@@ -10688,14 +9445,18 @@
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
             0,
             1,
             0
-        ]
+        ],
+        "kmeans_cluster":27,
+        "agg_cluster":1
     },
     {
         "id":11987,
@@ -10703,9 +9464,8 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "NewEra",
-            "Vegan",
-            "Vegetarian"
+            "Vegetarian",
+            "Vegan"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10736,14 +9496,6 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -10764,7 +9516,9 @@
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":18,
+        "agg_cluster":3
     },
     {
         "id":11989,
@@ -10772,15 +9526,12 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "Alcoholic",
-            "Vegetarian",
-            "ContemporaryClassic",
-            "Strong",
-            "Vegan",
-            "Mild",
-            "Brunch",
             "Beach",
-            "Expensive"
+            "Brunch",
+            "Vegetarian",
+            "Mild",
+            "Expensive",
+            "Vegan"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10812,12 +9563,9 @@
             0,
             0,
             0,
-            1,
             0,
             0,
             0,
-            1,
-            1,
             0,
             0,
             0,
@@ -10827,18 +9575,15 @@
             1,
             0,
             0,
-            0,
-            0,
             1,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":14,
+        "agg_cluster":15
     },
     {
         "id":11991,
@@ -10846,12 +9591,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Classic",
-            "Alcoholic",
-            "Strong",
-            "DinnerParty",
             "Expensive",
-            "IBA"
+            "DinnerParty",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10883,15 +9625,6 @@
         "one_hot_tags":[
             0,
             0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0,
-            0,
             0,
             0,
             0,
@@ -10906,11 +9639,14 @@
             0,
             0,
             0,
+            1,
             0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":3,
+        "agg_cluster":20
     },
     {
         "id":11993,
@@ -10918,14 +9654,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic",
-            "Strong",
-            "StrongFlavor",
             "Mild",
-            "Dairy",
-            "NewEra",
-            "Nutty",
-            "Christmas"
+            "StrongFlavor",
+            "Christmas",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -10964,14 +9696,6 @@
         ],
         "one_hot_tags":[
             0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
             0,
             0,
             0,
@@ -10980,18 +9704,20 @@
             1,
             0,
             0,
-            1,
-            0,
-            1,
-            0,
-            0,
             0,
             0,
             1,
+            0,
             1,
+            1,
+            0,
+            0,
+            0,
             0,
             0,
             0
-        ]
+        ],
+        "kmeans_cluster":28,
+        "agg_cluster":4
     }
 ]

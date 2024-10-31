@@ -138,3 +138,16 @@ Removed any redundant or unnecessary functions that were identified during the d
 ### Notes
 - The implementation of one-hot encoding for cocktail tags lays the groundwork for advanced data clustering and analysis, enabling more nuanced insights into cocktail characteristics.
 - Future updates will focus on further enhancing the one-hot encoding functionality and refining the overall data processing pipeline.
+
+# [0.3.0] - 2024-10-31
+### Added
+- Implemented clustering functionality for cocktails, allowing for the categorization of cocktails based on their tags and features.
+- Created a new Jupyter Notebook in the `/notebooks` directory for qualitative visualizations of cocktail clusters, enhancing data interpretation.
+
+### Changed
+- Updated the README to include information on the clustering process and visual representation of results, providing clearer guidance on how clustering is utilized in the project.
+- Adjusted the cocktail data schema to incorporate `kmeans_cluster` and `agg_cluster` fields, facilitating better organization and retrieval of clustering results.
+
+### Notes
+- The addition of clustering capabilities enhances the analytical depth of the cocktail data, allowing for a more comprehensive understanding of cocktail relationships and characteristics.
+- Future updates will aim to optimize clustering parameters and expand the visualization techniques used for presenting clustering results.

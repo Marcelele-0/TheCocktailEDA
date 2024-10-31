@@ -1,5 +1,6 @@
 # configs/analysis_configs/ingredient_analysis_config.yaml
 
 functions:
-  load_data: true                # enable whole section
-  analyze_tags: false
+  load_data: false                 # enable whole section - required for all functions
+  analyze_tags: false              # enable analyze_tags function
+  tag_counter: false               # enable tag_counter function
