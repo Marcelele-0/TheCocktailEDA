@@ -6,8 +6,18 @@ import pandas as pd
 # Configuring logging
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s - %(message)s')
 
+
 def assign_classic_tags(cocktail, classic_definitions):
-    """Assign classic, contemporary classic, or new era tags to a cocktail based on ingredient structure."""
+    """
+    Assign classic, contemporary classic, or new era tags to a cocktail based on ingredient structure.
+
+    Parameters:
+    cocktail (dict): The cocktail data.
+    classic_definitions (list): Definitions for classic tags.
+    
+    Returns:
+    list: List of assigned tags.
+    """
     ingredients_map = {definition['tag']: definition['ingredients'] for definition in classic_definitions}
 
     classic_ingredients = ingredients_map.get('Classic', [])
@@ -31,8 +41,18 @@ def assign_classic_tags(cocktail, classic_definitions):
 
     return []
 
+
 def assign_vegan_vegetarian_tags(cocktail, vegan_definitions):
-    """Assign vegan or vegetarian tags by excluding non-vegan/vegetarian ingredients."""
+    """
+    Assign vegan or vegetarian tags by excluding non-vegan/vegetarian ingredients.
+
+    Parameters:
+    cocktail (dict): The cocktail data.
+    vegan_definitions (list): Definitions for vegan and vegetarian tags.
+    
+    Returns:
+    list: List of assigned tags.
+    """
     vegan_map = {definition['tag']: definition['ingredients'] for definition in vegan_definitions}
 
     non_vegan_ingredients = vegan_map.get('NonVegan', [])
@@ -55,8 +75,18 @@ def assign_vegan_vegetarian_tags(cocktail, vegan_definitions):
 
     return tags
 
+
 def assign_other_tags(cocktail, other_definitions):
-    """Assign other tags based on additional definitions."""
+    """
+    Assign other tags based on additional definitions.
+
+    Parameters:
+    cocktail (dict): The cocktail data.
+    other_definitions (list): Definitions for other tags.
+    
+    Returns:
+    list: List of assigned tags.
+    """
     other_tags_map = {definition['tag']: definition['ingredients'] for definition in other_definitions}
 
     tags = []
@@ -67,9 +97,17 @@ def assign_other_tags(cocktail, other_definitions):
 
     return tags
 
+
 def save_simplified_data(df, file_path):
-    '''Save the simplified DataFrame to a JSON file'''
+    """
+    Save the simplified DataFrame to a JSON file.
+
+    Parameters:
+    df (DataFrame): The DataFrame to save.
+    file_path (str): The file path to save the JSON file.
+    """
     df.to_json(file_path, orient='records', indent=4)
+
 
 @hydra.main(version_base=None, config_path="../../configs/preprocessing_configs", config_name="tagging_config")
 def main(cfg: DictConfig):
@@ -77,7 +115,7 @@ def main(cfg: DictConfig):
 
     # Select data file based on data type in global config
     input_file = 'data/raw/cocktail_dataset.json' if global_config.data_type == 'raw' else 'data/processed/processed_cocktail_dataset.json'
-    output_file = 'data/processed/tagged_cocktail_dataset.json'
+    output_file = 'data/processed/processed_cocktail_dataset.json'
 
     # Load data
     try:
@@ -119,6 +157,7 @@ def main(cfg: DictConfig):
     logging.info("Saving tagged data to %s", output_file)
     save_simplified_data(cocktails, output_file)
     logging.info("Data processing complete!")
+
 
 if __name__ == "__main__":
     main()

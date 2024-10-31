@@ -5,16 +5,11 @@
         "category":"Cocktail",
         "glass":"Highball glass",
         "tags":[
-            "IBA",
-            "ContemporaryClassic",
-            "Alcoholic",
-            "USA",
-            "Asia",
-            "Vegan",
-            "Citrus",
-            "Brunch",
             "Hangover",
-            "Mild"
+            "Citrus",
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -57,6 +52,29 @@
                 "percentage":null,
                 "measure":"2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
         ]
     },
     {
@@ -65,11 +83,8 @@
         "category":"Cocktail",
         "glass":"Old-fashioned glass",
         "tags":[
-            "IBA",
-            "Classic",
-            "Alcoholic",
-            "Expensive",
-            "Savory"
+            "USA",
+            "StrongFlavor"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -105,6 +120,29 @@
                 "percentage":null,
                 "measure":"4.5 cL"
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -113,12 +151,9 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Strong",
-            "Asia",
-            "StrongFlavor",
+            "USA",
             "Brunch",
-            "Vegetarian",
-            "Sour"
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -170,6 +205,29 @@
                 "percentage":null,
                 "measure":"1 splash "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -178,8 +236,9 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "IBA",
-            "Classic"
+            "StrongFlavor",
+            "DinnerParty",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -207,6 +266,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -215,10 +297,11 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "IBA",
-            "Classic",
-            "Alcoholic",
-            "ContemporaryClassic"
+            "USA",
+            "Vegetarian",
+            "Mild",
+            "Strong",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -254,6 +337,29 @@
                 "percentage":null,
                 "measure":"1 "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -262,10 +368,8 @@
         "category":"Cocktail",
         "glass":"Cocktail glass",
         "tags":[
-            "IBA",
-            "Classic",
-            "Christmas",
-            "Alcoholic"
+            "DinnerParty",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -293,6 +397,29 @@
                 "percentage":null,
                 "measure":"1 "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -301,9 +428,10 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "IBA",
-            "Classic",
-            "Beach"
+            "Citrus",
+            "Mild",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -331,6 +459,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -339,8 +490,13 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -375,6 +531,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -383,9 +562,12 @@
         "category":"Cocktail",
         "glass":"Cocktail glass",
         "tags":[
-            "IBA",
-            "Classic",
-            "Alcoholic"
+            "USA",
+            "Citrus",
+            "DinnerParty",
+            "Cold",
+            "StrongFlavor",
+            "Summer"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -437,6 +619,29 @@
                 "percentage":null,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -445,8 +650,13 @@
         "category":"Punch \/ Party Drink",
         "glass":"Copper Mug",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -474,6 +684,29 @@
                 "percentage":null,
                 "measure":"2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -482,7 +715,12 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "DinnerParty"
+            "Vegan",
+            "Citrus",
+            "Vegetarian",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -510,6 +748,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -517,7 +778,17 @@
         "name":"After Supper Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Vegan",
+            "Citrus",
+            "Brunch",
+            "Vegetarian",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -544,6 +815,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -552,7 +846,16 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "Summer"
+            "Hangover",
+            "Citrus",
+            "Brunch",
+            "USA",
+            "Vegetarian",
+            "Summer",
+            "Breakfast",
+            "Vegan",
+            "Christmas",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -588,6 +891,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -596,8 +922,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Beach",
-            "Chilli"
+            "StrongFlavor",
+            "Expensive",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -633,6 +960,29 @@
                 "percentage":null,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -641,9 +991,9 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "IBA",
-            "Classic",
-            "Dairy"
+            "Mild",
+            "Christmas",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -678,6 +1028,29 @@
                 "type":null,
                 "percentage":null
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -686,8 +1059,9 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey Glass",
         "tags":[
-            "Nutty",
-            "Dairy"
+            "Vegetarian",
+            "Mild",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -722,6 +1096,29 @@
                 "type":null,
                 "percentage":null
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -730,7 +1127,13 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Alcoholic"
+            "Beach",
+            "Brunch",
+            "Vegetarian",
+            "Mild",
+            "Breakfast",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -758,6 +1161,29 @@
                 "percentage":null,
                 "measure":"1 dash "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -765,7 +1191,18 @@
         "name":"Algonquin",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "Brunch",
+            "USA",
+            "DinnerParty",
+            "Vegetarian",
+            "Mild",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -792,6 +1229,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -799,7 +1259,16 @@
         "name":"Allegheny",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "USA",
+            "Citrus",
+            "Brunch",
+            "DinnerParty",
+            "Breakfast",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -842,6 +1311,29 @@
                 "percentage":null,
                 "measure":"1 twist of "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -849,7 +1341,10 @@
         "name":"Allies Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -876,6 +1371,29 @@
                 "percentage":null,
                 "measure":"1\/2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -883,7 +1401,11 @@
         "name":"Almeria",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "StrongFlavor",
+            "Christmas",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -910,6 +1432,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -917,7 +1462,12 @@
         "name":"Almond Joy",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "Mild",
+            "Christmas",
+            "Vegan"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -944,6 +1494,29 @@
                 "percentage":null,
                 "measure":"2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -951,7 +1524,12 @@
         "name":"Amaretto And Cream",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "Mild",
+            "Christmas",
+            "Vegan"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -970,6 +1548,29 @@
                 "percentage":null,
                 "measure":"1 1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -977,7 +1578,14 @@
         "name":"Amaretto Mist",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Citrus",
+            "Christmas",
+            "Vegetarian",
+            "Vegan",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -996,6 +1604,29 @@
                 "percentage":null,
                 "measure":"1 "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -1003,7 +1634,19 @@
         "name":"Amaretto Rose",
         "category":"Ordinary Drink",
         "glass":"Collins glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "USA",
+            "Citrus",
+            "Brunch",
+            "Vegetarian",
+            "Summer",
+            "Vegan",
+            "Cold",
+            "Christmas",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1029,6 +1672,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
         ]
     },
     {
@@ -1036,7 +1702,11 @@
         "name":"Amaretto Stinger",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "Christmas",
+            "Vegan"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1055,6 +1725,29 @@
                 "percentage":null,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -1062,7 +1755,16 @@
         "name":"Amaretto Tea",
         "category":"Ordinary Drink",
         "glass":"Pousse cafe glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Brunch",
+            "Vegetarian",
+            "Mild",
+            "Breakfast",
+            "Vegan",
+            "Cold",
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1089,6 +1791,29 @@
                 "percentage":null,
                 "measure":"Chilled "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
         ]
     },
     {
@@ -1097,8 +1822,8 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "IBA",
-            "Classic"
+            "Christmas",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1126,6 +1851,29 @@
                 "percentage":24,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -1133,7 +1881,18 @@
         "name":"Applecar",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Vegan",
+            "Citrus",
+            "USA",
+            "Brunch",
+            "Vegetarian",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1160,6 +1919,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -1168,7 +1950,14 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Cold"
+            "Hangover",
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Breakfast",
+            "Strong",
+            "Christmas",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1220,6 +2009,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -1227,7 +2039,13 @@
         "name":"Archbishop",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Citrus",
+            "Expensive",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1262,6 +2080,29 @@
                 "percentage":14,
                 "measure":"1 oz Green Ginger "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -1269,7 +2110,15 @@
         "name":"Arise My Love",
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
-        "tags":null,
+        "tags":[
+            "Brunch",
+            "DinnerParty",
+            "Vegetarian",
+            "Expensive",
+            "Breakfast",
+            "Vegan",
+            "Cold"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1288,6 +2137,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
         ]
     },
     {
@@ -1295,7 +2167,17 @@
         "name":"Arthur Tompkins",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Citrus",
+            "Brunch",
+            "DinnerParty",
+            "Expensive",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1330,6 +2212,29 @@
                 "percentage":null,
                 "measure":"1 twist of "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -1337,7 +2242,10 @@
         "name":"Artillery",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1364,6 +2272,29 @@
                 "percentage":null,
                 "measure":"1 1\/2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -1371,7 +2302,12 @@
         "name":"Balmoral",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "StrongFlavor",
+            "Expensive",
+            "DinnerParty"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1406,6 +2342,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -1414,6 +2373,11 @@
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
         "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Summer",
             "Fruity"
         ],
         "alcoholic":1,
@@ -1466,6 +2430,29 @@
                 "percentage":null,
                 "measure":"1 tblsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -1473,7 +2460,12 @@
         "name":"Bermuda Highball",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "Cold",
+            "DinnerParty",
+            "Christmas",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1514,6 +2506,29 @@
                 "type":null,
                 "percentage":null
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -1522,8 +2537,10 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "Brunch",
+            "StrongFlavor",
+            "Breakfast",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1543,6 +2560,29 @@
                 "percentage":null,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
         ]
     },
     {
@@ -1550,7 +2590,10 @@
         "name":"Blackthorn",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "DinnerParty"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1577,6 +2620,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -1585,9 +2651,13 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "Breakfast",
+            "Hangover",
             "Brunch",
-            "Hangover"
+            "Citrus",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1639,6 +2709,29 @@
                 "percentage":null,
                 "measure":"2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -1647,8 +2740,13 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "Hangover",
+            "Citrus",
+            "Brunch",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -1700,6 +2798,29 @@
                 "percentage":null,
                 "measure":"1\/2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -1707,7 +2828,13 @@
         "name":"Blue Lagoon",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "Brunch",
+            "Mild",
+            "Strong",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1740,6 +2867,29 @@
                 "type":"Soft Drink",
                 "percentage":null
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -1747,7 +2897,15 @@
         "name":"Blue Margarita",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1782,6 +2940,29 @@
                 "percentage":null,
                 "measure":"Coarse "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -1789,7 +2970,18 @@
         "name":"Blue Mountain",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
+            "Breakfast",
+            "Strong",
+            "StrongFlavor",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1832,6 +3024,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -1839,7 +3054,10 @@
         "name":"Bluebird",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1890,6 +3108,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -1897,7 +3138,12 @@
         "name":"Bobby Burns Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "StrongFlavor",
+            "Expensive",
+            "DinnerParty"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1932,6 +3178,29 @@
                 "percentage":null,
                 "measure":"1 1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -1939,7 +3208,10 @@
         "name":"Boomerang",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -1982,6 +3254,29 @@
                 "percentage":null,
                 "measure":"1\/2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -1989,7 +3284,12 @@
         "name":"Boston Sidecar",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Citrus",
+            "Summer",
+            "Christmas",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2024,6 +3324,29 @@
                 "percentage":null,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -2031,7 +3354,13 @@
         "name":"Boston Sour",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "USA",
+            "Mild",
+            "Strong",
+            "Christmas",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2074,6 +3403,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -2081,7 +3433,11 @@
         "name":"Classic Old-Fashioned",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "USA",
+            "Citrus",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2132,6 +3488,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -2139,7 +3518,15 @@
         "name":"Bourbon Sling",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "USA",
+            "Citrus",
+            "Brunch",
+            "Breakfast",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2182,6 +3569,29 @@
                 "percentage":null,
                 "measure":"2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -2189,7 +3599,15 @@
         "name":"Bourbon Sour",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "USA",
+            "Citrus",
+            "Brunch",
+            "Breakfast",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2232,6 +3650,29 @@
                 "percentage":null,
                 "measure":"1\/2 tsp superfine "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -2239,7 +3680,18 @@
         "name":"Boxcar",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Brunch",
+            "Citrus",
+            "Mild",
+            "Summer",
+            "Breakfast",
+            "Strong",
+            "Christmas",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2282,6 +3734,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -2289,7 +3764,15 @@
         "name":"Brandy Cobbler",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "USA",
+            "Citrus",
+            "Vegetarian",
+            "Cold",
+            "Christmas",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2340,6 +3823,29 @@
                 "percentage":null,
                 "measure":"1 tsp superfine "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
         ]
     },
     {
@@ -2347,7 +3853,13 @@
         "name":"Brandy Flip",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Brunch",
+            "Mild",
+            "Breakfast",
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2390,6 +3902,29 @@
                 "percentage":null,
                 "measure":"1 tsp superfine "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
         ]
     },
     {
@@ -2397,7 +3932,12 @@
         "name":"Brandy Sour",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "Mild",
+            "Christmas",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2432,6 +3972,29 @@
                 "percentage":null,
                 "measure":"1\/2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -2440,8 +4003,12 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "ContemporaryClassic",
-            "IBA"
+            "Beach",
+            "Citrus",
+            "Vegetarian",
+            "Vegan",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2469,6 +4036,29 @@
                 "percentage":null,
                 "measure":"2 tsp"
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -2476,7 +4066,18 @@
         "name":"California Lemonade",
         "category":"Ordinary Drink",
         "glass":"Collins glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "USA",
+            "Brunch",
+            "Citrus",
+            "Vegetarian",
+            "Mild",
+            "Strong",
+            "Cold",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2526,6 +4127,29 @@
                 "percentage":null,
                 "measure":"1 tblsp"
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
         ]
     },
     {
@@ -2533,7 +4157,14 @@
         "name":"Casa Blanca",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2568,6 +4199,29 @@
                 "percentage":null,
                 "measure":"1 1\/2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -2575,7 +4229,16 @@
         "name":"Casino Royale",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Brunch",
+            "Citrus",
+            "Breakfast",
+            "Summer",
+            "Strong",
+            "Christmas",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2618,6 +4281,29 @@
                 "percentage":null,
                 "measure":"1 dash "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -2626,8 +4312,13 @@
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "Brunch",
+            "DinnerParty",
+            "Vegetarian",
+            "Expensive",
+            "Breakfast",
+            "Vegan",
+            "Cold"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2671,6 +4362,29 @@
                 "percentage":null,
                 "measure":"1 piece "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
         ]
     },
     {
@@ -2678,7 +4392,9 @@
         "name":"Cherry Rum",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Mild"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2705,6 +4421,29 @@
                 "percentage":null,
                 "measure":"1 1\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -2712,7 +4451,13 @@
         "name":"Chicago Fizz",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Mild",
+            "Expensive",
+            "Cold",
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2762,6 +4507,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -2769,7 +4537,10 @@
         "name":"Chocolate Black Russian",
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
-        "tags":null,
+        "tags":[
+            "StrongFlavor",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2796,6 +4567,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -2803,7 +4597,16 @@
         "name":"City Slicker",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Citrus",
+            "Brunch",
+            "Vegetarian",
+            "Summer",
+            "Breakfast",
+            "Christmas",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2830,6 +4633,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -2837,7 +4663,11 @@
         "name":"Clove Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "DinnerParty",
+            "Expensive"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2864,6 +4694,29 @@
                 "percentage":14,
                 "measure":"1\/2 oz Muscatel "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -2872,8 +4725,11 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "USA",
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -2900,6 +4756,29 @@
                 "percentage":null,
                 "measure":"Juice of 1\/2 "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -2907,7 +4786,13 @@
         "name":"Dragonfly",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Citrus",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2934,6 +4819,29 @@
                 "percentage":null,
                 "measure":"1 "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -2941,7 +4849,13 @@
         "name":"Dry Rob Roy",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Vegetarian",
+            "Expensive",
+            "Vegan",
+            "StrongFlavor"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -2968,6 +4882,29 @@
                 "percentage":null,
                 "measure":"1 twist of "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -2975,7 +4912,9 @@
         "name":"Dubonnet Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3010,6 +4949,29 @@
                 "percentage":null,
                 "measure":"1 twist of "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -3017,7 +4979,12 @@
         "name":"English Highball",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "Cold",
+            "DinnerParty",
+            "Christmas",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3058,6 +5025,29 @@
                 "percentage":null,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -3065,7 +5055,18 @@
         "name":"English Rose Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Brunch",
+            "Citrus",
+            "DinnerParty",
+            "Mild",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3116,6 +5117,29 @@
                 "percentage":null,
                 "measure":"1\/4 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -3123,7 +5147,9 @@
         "name":"Flying Dutchman",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3142,6 +5168,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -3149,7 +5198,13 @@
         "name":"Flying Scotchman",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Vegetarian",
+            "Mild",
+            "Expensive",
+            "StrongFlavor"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3184,6 +5239,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -3191,7 +5269,12 @@
         "name":"Foxy Lady",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "Mild",
+            "Christmas",
+            "Vegan"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3218,6 +5301,29 @@
                 "percentage":null,
                 "measure":"2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -3225,7 +5331,15 @@
         "name":"Frisco Sour",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "Citrus",
+            "USA",
+            "Vegetarian",
+            "Expensive",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3260,6 +5374,29 @@
                 "percentage":null,
                 "measure":"1 slice "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -3267,7 +5404,15 @@
         "name":"Frozen Daiquiri",
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Cold",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3318,6 +5463,29 @@
                 "percentage":null,
                 "measure":"1 tblsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
         ]
     },
     {
@@ -3325,7 +5493,14 @@
         "name":"Frozen Mint Daiquiri",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3360,6 +5535,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -3367,7 +5565,14 @@
         "name":"Frozen Pineapple Daiquiri",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3402,6 +5607,29 @@
                 "percentage":null,
                 "measure":"1\/2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -3409,7 +5637,14 @@
         "name":"Gentleman's Club",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "USA",
+            "DinnerParty",
+            "Strong",
+            "Cold",
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3444,6 +5679,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -3451,7 +5709,15 @@
         "name":"Gin And Tonic",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Cold",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3478,6 +5744,29 @@
                 "percentage":null,
                 "measure":"5 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
         ]
     },
     {
@@ -3485,7 +5774,11 @@
         "name":"Gin Cooler",
         "category":"Ordinary Drink",
         "glass":"Collins glass",
-        "tags":null,
+        "tags":[
+            "Mild",
+            "Cold",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3524,6 +5817,29 @@
                 "type":null,
                 "percentage":null
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -3531,7 +5847,17 @@
         "name":"Gin Daisy",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Brunch",
+            "Citrus",
+            "Mild",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3582,6 +5908,29 @@
                 "percentage":null,
                 "measure":"1\/2 tsp superfine "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -3590,8 +5939,9 @@
         "category":"Ordinary Drink",
         "glass":"Highball glass",
         "tags":[
-            "IBA",
-            "Classic"
+            "Mild",
+            "Cold",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3626,6 +5976,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -3633,7 +6006,11 @@
         "name":"Gin Sling",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Citrus",
+            "Mild",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3676,6 +6053,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -3685,7 +6085,10 @@
         "glass":"Old-fashioned glass",
         "tags":[
             "Citrus",
-            "StrongFlavor"
+            "Strong",
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3737,6 +6140,29 @@
                 "percentage":null,
                 "measure":"1 cube "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
         ]
     },
     {
@@ -3745,7 +6171,13 @@
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
         "tags":[
-            "Sour"
+            "Hangover",
+            "Citrus",
+            "Brunch",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -3789,6 +6221,29 @@
                 "percentage":null,
                 "measure":"1\/2 tsp superfine "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -3796,7 +6251,15 @@
         "name":"Gin Squirt",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "Brunch",
+            "Mild",
+            "Strong",
+            "Cold",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3846,6 +6309,29 @@
                 "percentage":null,
                 "measure":"2 "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
         ]
     },
     {
@@ -3853,7 +6339,17 @@
         "name":"Gin Swizzle",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "USA",
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Cold",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3896,6 +6392,29 @@
                 "percentage":null,
                 "measure":"1 tsp superfine "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
         ]
     },
     {
@@ -3903,7 +6422,10 @@
         "name":"Gin Toddy",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Mild",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3938,6 +6460,29 @@
                 "percentage":null,
                 "measure":"2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -3945,7 +6490,12 @@
         "name":"Godchild",
         "category":"Ordinary Drink",
         "glass":"Champagne flute",
-        "tags":null,
+        "tags":[
+            "Brunch",
+            "Mild",
+            "Christmas",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -3972,6 +6522,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -3980,8 +6553,12 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "DinnerParty",
+            "Vegetarian",
+            "Expensive",
+            "Vegan",
+            "StrongFlavor",
+            "Christmas"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4001,6 +6578,29 @@
                 "percentage":28,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4009,8 +6609,8 @@
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "Christmas",
+            "Strong"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4030,6 +6630,29 @@
                 "percentage":28,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4037,7 +6660,15 @@
         "name":"Grass Skirt",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "Brunch",
+            "Mild",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4080,6 +6711,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -4088,8 +6742,16 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
+            "Expensive",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4117,6 +6779,29 @@
                 "percentage":null,
                 "measure":"4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -4124,7 +6809,16 @@
         "name":"Havana Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
+            "Breakfast",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4151,6 +6845,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -4158,7 +6875,15 @@
         "name":"Hawaiian Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "Brunch",
+            "Mild",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4185,6 +6910,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -4192,7 +6940,12 @@
         "name":"Highland Fling Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "StrongFlavor",
+            "Expensive",
+            "DinnerParty"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4227,6 +6980,29 @@
                 "percentage":null,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4234,7 +7010,12 @@
         "name":"Imperial Fizz",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "USA",
+            "Cold",
+            "Mild",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4276,6 +7057,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -4283,7 +7087,17 @@
         "name":"Irish Spring",
         "category":"Ordinary Drink",
         "glass":"Collins glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
+            "Expensive",
+            "Breakfast",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4334,6 +7148,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -4342,7 +7179,16 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "Beach"
+            "Vegan",
+            "Beach",
+            "Brunch",
+            "Citrus",
+            "Vegetarian",
+            "Mild",
+            "Summer",
+            "Strong",
+            "Christmas",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4370,6 +7216,29 @@
                 "percentage":null,
                 "measure":"Juice of 1\/2 "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -4377,7 +7246,15 @@
         "name":"Japanese Fizz",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "USA",
+            "DinnerParty",
+            "Mild",
+            "Expensive",
+            "Strong",
+            "Cold",
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4427,6 +7304,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -4434,7 +7334,11 @@
         "name":"Jewel Of The Nile",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "StrongFlavor",
+            "Expensive",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4461,6 +7365,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4469,7 +7396,14 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "IBA"
+            "Hangover",
+            "USA",
+            "Citrus",
+            "Brunch",
+            "Breakfast",
+            "Cold",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4521,6 +7455,29 @@
                 "percentage":null,
                 "measure":"1 tsp superfine "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
         ]
     },
     {
@@ -4529,8 +7486,13 @@
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
         "tags":[
-            "IBA",
-            "NewEra"
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Strong",
+            "Summer",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4558,6 +7520,29 @@
                 "percentage":null,
                 "measure":"1 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -4565,7 +7550,10 @@
         "name":"Kentucky B And B",
         "category":"Ordinary Drink",
         "glass":"Brandy snifter",
-        "tags":null,
+        "tags":[
+            "USA",
+            "Expensive"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4584,6 +7572,29 @@
                 "percentage":null,
                 "measure":"2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4591,7 +7602,10 @@
         "name":"Kentucky Colonel",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "USA",
+            "Expensive"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4618,6 +7632,29 @@
                 "percentage":null,
                 "measure":"1 twist of "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4625,7 +7662,12 @@
         "name":"Lady Love Fizz",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Mild",
+            "Cold",
+            "Christmas",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4675,6 +7717,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -4682,7 +7747,13 @@
         "name":"Loch Lomond",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Vegetarian",
+            "Expensive",
+            "Vegan",
+            "StrongFlavor"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4717,6 +7788,29 @@
                 "percentage":null,
                 "measure":"1 twist of "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4724,7 +7818,9 @@
         "name":"London Town",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4751,6 +7847,29 @@
                 "percentage":null,
                 "measure":"2 dashes "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4758,7 +7877,10 @@
         "name":"Lone Tree Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4777,6 +7899,29 @@
                 "percentage":null,
                 "measure":"3\/4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4784,7 +7929,12 @@
         "name":"Lone Tree Cooler",
         "category":"Ordinary Drink",
         "glass":"Collins glass",
-        "tags":null,
+        "tags":[
+            "Mild",
+            "Cold",
+            "DinnerParty",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4829,6 +7979,29 @@
                 "type":null,
                 "percentage":null
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -4836,7 +8009,12 @@
         "name":"Lord And Lady",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "Strong",
+            "StrongFlavor",
+            "Vegan"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4855,6 +8033,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4863,8 +8064,8 @@
         "category":"Ordinary Drink",
         "glass":"Collins glass",
         "tags":[
-            "IBA",
-            "ContemporaryClassic"
+            "Mild",
+            "Fruity"
         ],
         "alcoholic":1,
         "ingredients":[
@@ -4908,6 +8109,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -4915,7 +8139,11 @@
         "name":"Martinez Cocktail",
         "category":"Cocktail",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Fruity",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4958,6 +8186,29 @@
                 "percentage":null,
                 "measure":"1\/4 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -4965,7 +8216,10 @@
         "name":"Martini",
         "category":"Cocktail",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "DinnerParty",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -4992,6 +8246,29 @@
                 "percentage":null,
                 "measure":"1 "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -4999,7 +8276,12 @@
         "name":"Midnight Cowboy",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "USA",
+            "Brunch",
+            "Mild",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5026,6 +8308,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5033,7 +8338,12 @@
         "name":"Mississippi Planters Punch",
         "category":"Ordinary Drink",
         "glass":"Collins glass",
-        "tags":null,
+        "tags":[
+            "USA",
+            "Cold",
+            "Mild",
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5083,6 +8393,29 @@
                 "percentage":null,
                 "measure":"1 tblsp"
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
         ]
     },
     {
@@ -5090,7 +8423,12 @@
         "name":"Monkey Wrench",
         "category":"Ordinary Drink",
         "glass":"Old-fashioned glass",
-        "tags":null,
+        "tags":[
+            "Citrus",
+            "Brunch",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5117,6 +8455,29 @@
                 "percentage":null,
                 "measure":"1 1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -5124,7 +8485,13 @@
         "name":"New York Sour",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "USA",
+            "Vegetarian",
+            "Expensive",
+            "Strong",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5165,6 +8532,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -5172,7 +8562,17 @@
         "name":"Orange Oasis",
         "category":"Ordinary Drink",
         "glass":"Highball glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Beach",
+            "Citrus",
+            "Brunch",
+            "Mild",
+            "Breakfast",
+            "Strong",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5206,6 +8606,29 @@
                 "percentage":null,
                 "measure":"4 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
         ]
     },
     {
@@ -5213,7 +8636,11 @@
         "name":"Orgasm",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Mild",
+            "Christmas",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5256,6 +8683,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5263,7 +8713,9 @@
         "name":"Pink Gin",
         "category":"Ordinary Drink",
         "glass":"White wine glass",
-        "tags":null,
+        "tags":[
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5282,6 +8734,29 @@
                 "percentage":null,
                 "measure":"3 dashes "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5289,7 +8764,13 @@
         "name":"Pink Lady",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "Brunch",
+            "Mild",
+            "Strong",
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5324,6 +8805,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5331,7 +8835,9 @@
         "name":"Poppy Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5350,6 +8856,29 @@
                 "percentage":null,
                 "measure":"3\/4 oz white "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5357,7 +8886,13 @@
         "name":"Port And Starboard",
         "category":"Ordinary Drink",
         "glass":"Pousse cafe glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "Brunch",
+            "Vegetarian",
+            "Mild",
+            "Vegan"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5376,6 +8911,29 @@
                 "percentage":null,
                 "measure":"1 tblsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5383,7 +8941,12 @@
         "name":"Port Wine Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "DinnerParty",
+            "Expensive",
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5402,6 +8965,29 @@
                 "percentage":null,
                 "measure":"2 1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5409,7 +8995,15 @@
         "name":"Port Wine Flip",
         "category":"Ordinary Drink",
         "glass":"Whiskey sour glass",
-        "tags":null,
+        "tags":[
+            "Hangover",
+            "Brunch",
+            "DinnerParty",
+            "Mild",
+            "Expensive",
+            "Breakfast",
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5451,6 +9045,29 @@
                 "percentage":null,
                 "measure":"1 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
         ]
     },
     {
@@ -5458,7 +9075,9 @@
         "name":"Quaker's Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Christmas"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5493,6 +9112,29 @@
                 "percentage":null,
                 "measure":"2 tsp "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5500,7 +9142,11 @@
         "name":"Quarter Deck Cocktail",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Citrus",
+            "Summer",
+            "Fruity"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5527,6 +9173,29 @@
                 "percentage":null,
                 "measure":"1\/3 oz cream "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
         ]
     },
     {
@@ -5534,7 +9203,10 @@
         "name":"Queen Bee",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Vegetarian",
+            "Vegan"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5561,6 +9233,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz cream "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5568,7 +9263,14 @@
         "name":"Queen Charlotte",
         "category":"Ordinary Drink",
         "glass":"Collins glass",
-        "tags":null,
+        "tags":[
+            "Beach",
+            "Brunch",
+            "Vegetarian",
+            "Mild",
+            "Expensive",
+            "Vegan"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5594,6 +9296,29 @@
                 "percentage":14,
                 "measure":"2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5601,7 +9326,11 @@
         "name":"Queen Elizabeth",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Expensive",
+            "DinnerParty",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5628,6 +9357,29 @@
                 "percentage":null,
                 "measure":"1\/2 oz "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
         ]
     },
     {
@@ -5635,7 +9387,12 @@
         "name":"Quentin",
         "category":"Ordinary Drink",
         "glass":"Cocktail glass",
-        "tags":null,
+        "tags":[
+            "Mild",
+            "StrongFlavor",
+            "Christmas",
+            "Strong"
+        ],
         "alcoholic":1,
         "ingredients":[
             {
@@ -5670,6 +9427,29 @@
                 "percentage":null,
                 "measure":"1\/8 tsp grated "
             }
+        ],
+        "one_hot_tags":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     }
 ]
