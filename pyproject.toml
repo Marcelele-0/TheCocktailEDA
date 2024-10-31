@@ -1,5 +1,5 @@
 [project]
 name = "cocktail-clustering"
-version = "0.2.1"
+version = "0.2.2"
 description = "A project for clustering cocktail recipes."
 authors = [{ name = "Marcel Musiałek", email = "mnem12321@gmail.com" }]

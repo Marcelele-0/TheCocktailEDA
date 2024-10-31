@@ -123,3 +123,18 @@ Removed any redundant or unnecessary functions that were identified during the d
 ### Notes
 - The tagging implementation is now operational, creating a foundation for analyzing cocktail characteristics and enabling targeted categorization based on user-defined criteria.
 - Future updates will refine tag definitions further and expand the tagging framework to support more complex categorization as ingredient analysis evolves.
+
+
+# [0.2.2] - 2024-10-31
+### Added
+- Introduced `one_hot_tags` column to the cocktail data schema, allowing for binary representation of tag presence for each cocktail.
+- Developed the `one_hot_encode_tags.py` script to perform one-hot encoding on cocktail tags, facilitating more efficient data analysis for clustering.
+- Implemented error handling to ensure the presence of the `tags` column before processing for one-hot encoding, improving script robustness.
+
+### Changed
+- Updated the cocktail data structure to include the `one_hot_tags` field, enhancing the data model for clustering and analysis.
+- Refined the README documentation to reflect changes in the data schema, providing clearer information on the cocktail attributes.
+
+### Notes
+- The implementation of one-hot encoding for cocktail tags lays the groundwork for advanced data clustering and analysis, enabling more nuanced insights into cocktail characteristics.
+- Future updates will focus on further enhancing the one-hot encoding functionality and refining the overall data processing pipeline.

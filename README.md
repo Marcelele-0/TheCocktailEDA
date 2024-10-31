@@ -81,6 +81,9 @@ The dataset is stored in JSON format in the `data/` folder.
 - **name** (string): Name of the cocktail  
   Example: "Mojito", "Old Fashioned"
 
+- **tags** (list)                                                  - updated in `tagging_script.py`
+  Example: "tags":["IBA","Classic","Alcoholic","Expensive","Savory"]
+ 
 - **instructions** (string, nullable): Instructions on how to prepare the cocktail  
   Example: "Muddle mint leaves with sugar and lime juice..."
 
@@ -93,14 +96,17 @@ The dataset is stored in JSON format in the `data/` folder.
 - **glass** (enum, nullable): Type of glass used for serving  
   Example: "Highball glass", "Old-fashioned glass"
 
-- **imageUrl** (string, nullable): URL of the cocktail image  
+- **imageUrl** (string, nullable): URL of the cocktail image        - deleted in `simplify_data.py`
   Example: https://cocktails.solvro.pl/images/cocktails/mojito.png
 
-- **createdAt** (string, nullable): Record creation date  
+- **createdAt** (string, nullable): Record creation date            - deleted in `simplify_data.py`
   Example: "2024-08-19 18:39:58"
 
-- **updatedAt** (string, nullable): Record update date  
+- **updatedAt** (string, nullable): Record update date              - deleted in `simplify_data.py`
   Example: "2024-08-21 10:12:58"
+
+- **one_hot_tags** (list)                                             - created in `one_hot_encode_tags.py`
+  Example: "oneHotTags": [1, 0, 1, ..., 0, 1]  # Represents presence of tags in a binary format
 
 ### Ingredients
 

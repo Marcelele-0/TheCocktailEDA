@@ -1,0 +1,33 @@
+one_hot:
+  tag_column: "tags"                # Column name with tags to encode
+  output_column_prefix: one_hot_tags    # Prefix for output columns
+
+tags_indices:
+  NewEra: 1
+  Classic: 2
+  ContemporaryClassic: 3
+  NonVegan: 4
+  NonVegetarian: 5
+  IBA: 6
+  Strong: 7
+  Alcoholic: 8
+  USA: 9
+  Asia: 10
+  Citrus: 11
+  Brunch: 12
+  Hangover: 13
+  Mild: 14
+  Expensive: 15
+  Savory: 16
+  StrongFlavor: 17
+  Sour: 18
+  Christmas: 19
+  Beach: 20
+  DinnerParty: 21
+  Summer: 22
+  Chilli: 23
+  Dairy: 24
+  Nutty: 25
+  Cold: 26
+  Fruity: 27
+  Breakfast: 28

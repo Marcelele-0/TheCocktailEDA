@@ -114,6 +114,8 @@ def main(cfg: DictConfig):
 
     # Remove duplicate tags by converting to a set and back to a list
     cocktail['tags'] = list(set(tags))
+    cocktails['tags'] = cocktails['tags'].apply(lambda x: x if isinstance(x, list) else [])
+
 
     # Save updated data
     logging.info("Saving tagged data to %s", output_file)
