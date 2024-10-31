@@ -68,10 +68,26 @@ project-root/
      pip install -r requirements.txt
      ```
 
-###
-- make sure to set global config to use processed data 
-- you can enable and run analysys by chosing interesting functions in configs and run them with 
-python 
+### Usage
+- Make sure to set global config to use processed data.
+- You can enable and run analysis by choosing interesting functions in configs and run them with:
+  ```bash
+    python src/analysis/general_analysis.py
+    python src/analysis/ingredients_analysis.py
+    python src/analysis/tag_analysis.py
+  ```
+- You can preprocess data by running (configs are set up correctly by default - make sure global config is set to processed data if you changed it in analysis):
+  ```bash
+    python src/preprocessing_scripts/simplify_data.py
+    python src/preprocessing_scripts/tagging_script.py
+    python src/preprocessing_scripts/one_hot_encode_tags.py
+  ```
+
+- Now cluster the data by (config is not yet set up so it will inform about everything):
+  ```bash 
+    python src/clustering/clustering.py 
+  ```
+
 
 ## 3. Dataset
 The dataset is stored in JSON format in the `data/` folder. 

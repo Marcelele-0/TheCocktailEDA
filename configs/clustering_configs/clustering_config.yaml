@@ -1,2 +1,2 @@
 clustering:
-  n_clusters: 30
+  n_clusters: 10    # max Number of clusters
