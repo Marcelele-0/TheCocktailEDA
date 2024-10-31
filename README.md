@@ -1,6 +1,7 @@
 # TheCocatailEDA
 
 This project focuses on exploratory data analysis (EDA) and clustering of cocktail recipes, based on a dataset from TheCocktailDB.
+See exac changes in changelog 
 
 ## Table of Contents
 1. Introduction
