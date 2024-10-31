@@ -151,3 +151,6 @@ Removed any redundant or unnecessary functions that were identified during the d
 ### Notes
 - The addition of clustering capabilities enhances the analytical depth of the cocktail data, allowing for a more comprehensive understanding of cocktail relationships and characteristics.
 - Future updates will aim to optimize clustering parameters and expand the visualization techniques used for presenting clustering results.
+
+# [1.0.0] - 2024-10-31
+### Release
