@@ -28,16 +28,19 @@ project-root/
 ├── data/                                # Data directory
 │   ├── processed/                       # Processed dataset
 │   │   ├── processed_cocktail_dataset.json
-│   │   └── tagged_cocktail_dataset.json
+│   │   └── clustered_cocktail_dataset.json
 │   └── raw/                             # Raw dataset (add any initial datasets here)
 ├── notebooks/                           # Jupyter notebooks for data exploration and visualization
 ├── outputs/                             # Directory for any output files or results
 ├── src/                                 # Source code
+│   ├── clustering/  
+│   │   └── clustering.py
 │   ├── analysis/                        # Analysis-related scripts
 │   │   ├── general_analysis.py
 │   │   ├── ingredients_analysis.py
 │   │   └── tag_analysis.py
 │   ├── preprocessing_scripts/           # Preprocessing scripts
+│   │   ├── one_hot_encode_tags.py
 │   │   ├── simplify_data.py
 │   │   └── tagging_script.py
 ├── .gitignore                           # Git ignore file
